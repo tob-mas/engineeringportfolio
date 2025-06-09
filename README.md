@@ -12,13 +12,11 @@ Welcome to my engineering portfolio! This repository showcases my work in **3D M
 
 ---
 
-## ✨ Project Highlights *(coming soon)*
+## ✨ Project Highlights 
 
 Here’s a preview of the projects I’ll be uploading:
 
-- 🔩 **X**
-- ✈️ **X**
-- 🌊 **X**
+- ✈️ **Basic 3D Model of an aircraft and corresponding simulations with a small report on results**
 
 Stay tuned for detailed writeups and downloadable files.
 
@@ -28,7 +26,6 @@ Stay tuned for detailed writeups and downloadable files.
 
 - Browse the folders above to explore different categories of work.
 - Files will be added regularly as I continue uploading my portfolio.
-- You’re welcome to fork, star, or open issues if you'd like to collaborate or ask questions.
 
 ---
 
