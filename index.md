@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Engineering Portfolio"
+title: Home
 ---
 
 # 👷‍♂️ Engineering Portfolio
