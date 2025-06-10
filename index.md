@@ -1,16 +1,35 @@
 ---
 layout: default
-title: My Engineering Portfolio
+title: "Engineering Portfolio"
 ---
 
 # 👷‍♂️ Engineering Portfolio
 
-Welcome to my portfolio! This site showcases my work in **3D Modeling**, **Simulations**, and **Technical reports**.
+Welcome to my engineering portfolio. This website showcases my work in **3D Modeling**, **Simulations**, and **Technical reports & Research** developed throughout my academic and professional journey.
 
-## 🔧 Projects
+---
 
-- CAD Models
-- Simulation Results
-- Research & Reports
+## 📁 Portfolio Sections
+
+### 🔹 3D Models
+CAD and engineering design files created in SolidWorks,and other modeling tools.  
+➡️ [View 3D Models](3D_models)
+
+### 🔹 Simulations
+Results and setups from mechanical, fluid, and structural simulations.  
+➡️ [View Simulations](simulations)
+
+### 🔹 Technical Reports & Research
+Formal documentation of engineering analyses and projects.  
+➡️ [View Reports](reports)
+
+---
+
+## 📄 About Me
+
+I am a degree apprentice mechanical engineer with a passion for precision design, analysis, and innovation. My portfolio represents a commitment to quality work and continuous learning.
+
+---
+
 
 
