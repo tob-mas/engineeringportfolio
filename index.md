@@ -6,7 +6,7 @@ title: Home
 # 👷‍♂️ Engineering Portfolio
 
 Welcome to my engineering portfolio. This website showcases my work in **3D Modeling**, **Simulations**, and **Technical reports & Research** developed throughout my academic and professional journey.
-jgirjgero
+
 ---
 
 ## 📁 Portfolio Sections
