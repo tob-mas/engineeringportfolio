@@ -1,7 +1,9 @@
 ---
 layout: default
-title: "Simulations"
+title: Simulations
+permalink: /simulations/
 ---
+
 
 # 🌊 Simulations
 
