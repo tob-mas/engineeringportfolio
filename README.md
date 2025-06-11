@@ -6,7 +6,7 @@ Welcome to my engineering portfolio! This repository showcases my work in **3D M
 
 ## 📁 Folder Structure
 
-- [`3D_models/`](./3D_models): CAD and 3D model files.
+- [`3d_models/`](./3D_models): CAD and 3D model files.
 - [`simulations/`](./simulations): Simulation scripts and project files.
 - [`reports/`](./reports): Reports detailing my design processes, analyses, and conclusions.
 
