@@ -1,7 +1,9 @@
 ---
 layout: default
-title: "Technical Reports"
+title: Reports
+permalink: /reports/
 ---
+
 
 # 📄 Technical Reports
 
