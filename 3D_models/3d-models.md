@@ -1,7 +1,9 @@
 ---
 layout: default
-title: "3D Models"
+title: 3D Models
+permalink: /3D_models/
 ---
+
 
 # 🧱 3D Models
 
