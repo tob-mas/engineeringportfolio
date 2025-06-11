@@ -9,6 +9,6 @@ This section includes 3D CAD models and engineering designs created using tools 
 
 ## 📂 Available Models
 
-- **[Model 1](3D_models/10-06-2025)** – 3D Model of an plane
+- **[Model 1](10-06-2025)** – 3D Model of an plane
 
 > Files are available in STL and STEP formats.
