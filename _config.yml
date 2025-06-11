@@ -1,3 +1,4 @@
+baseurl: "/engineeringportfolio"
 theme: jekyll-theme-cayman
 title: "Engineering Portfolio"
 description: "Showcasing 3D models, simulations, and technical reports from academic and professional work."
