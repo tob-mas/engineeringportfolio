@@ -13,7 +13,7 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 
 ### 🔹 3D Models
 CAD and engineering design files created in SolidWorks,and other modeling tools.  
-➡️ [View 3D Models](3D_models)
+➡️ [View 3D Models](3d_models)
 
 ### 🔹 Simulations
 Results and setups from mechanical, fluid, and structural simulations.  
