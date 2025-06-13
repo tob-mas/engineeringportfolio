@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
         --bg: #f9fbfc;
@@ -34,7 +37,7 @@
       }
 
       body {
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         background-color: var(--bg);
         color: var(--text);
         line-height: 1.6;
@@ -87,13 +90,32 @@
         background: rgba(255, 255, 255, 0.1);
       }
 
+      /* SVG icon styles */
+      .theme-toggle svg {
+        width: 20px;
+        height: 20px;
+        fill: white;
+        transition: fill 0.3s ease;
+      }
+
+      [data-theme="dark"] .theme-toggle {
+        border-color: var(--primary);
+        color: var(--primary);
+      }
+
+      [data-theme="dark"] .theme-toggle svg {
+        fill: var(--primary);
+      }
+
       main {
         padding: 3rem 1rem;
         max-width: 900px;
         margin: auto;
       }
 
-      h1, h2, h3 {
+      h1,
+      h2,
+      h3 {
         color: var(--primary);
         margin-bottom: 1rem;
       }
@@ -224,8 +246,24 @@
       <a href="{{ '/3d_models/' | relative_url }}">3D Models</a>
       <a href="{{ '/simulations/' | relative_url }}">Simulations</a>
       <a href="{{ '/reports/' | relative_url }}">Reports</a>
-      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-        <span id="themeIcon">🌙</span> Theme
+      <button
+        class="theme-toggle"
+        onclick="toggleTheme()"
+        aria-label="Toggle theme"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          role="img"
+        >
+          <path
+            id="themeIconPath"
+            fill="currentColor"
+            d="M12 3.1a8.9 8.9 0 1 0 8.9 8.9 8.91 8.91 0 0 1-8.9-8.9z"
+          ></path>
+        </svg>
+        Theme
       </button>
     </nav>
 
@@ -241,7 +279,7 @@
         </div>
         <div>
           <h4>Links</h4>
-          <a href="{{ '/' | relative_url }}">Home</a><br>
+          <a href="{{ '/' | relative_url }}">Home</a><br />
           <a href="{{ '/reports/' | relative_url }}">Reports</a>
         </div>
         <div>
@@ -256,9 +294,11 @@
     <script>
       (function () {
         const savedTheme = localStorage.getItem("theme");
-        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)")
+          .matches;
         const theme = savedTheme || (prefersDark ? "dark" : "light");
         document.documentElement.setAttribute("data-theme", theme);
+        updateIcon(theme);
       })();
 
       function toggleTheme() {
@@ -267,12 +307,32 @@
         const newTheme = current === "dark" ? "light" : "dark";
         html.setAttribute("data-theme", newTheme);
         localStorage.setItem("theme", newTheme);
-        document.getElementById("themeIcon").textContent = newTheme === "dark" ? "🌙" : "☀️";
+        updateIcon(newTheme);
+      }
+
+      // SVG paths for sun and moon icons (simplified)
+      const sunPath = "M12 3.1a8.9 8.9 0 1 0 8.9 8.9 8.91 8.91 0 0 1-8.9-8.9z";
+      const moonPath = "M21 12.79A9 9 0 0 1 11.21 3a7 7 0 1 0 9.79 9.79z";
+
+      const iconPath = document.getElementById("themeIconPath");
+
+      function updateIcon(theme) {
+        if (theme === "dark") {
+          morphPath(moonPath);
+        } else {
+          morphPath(sunPath);
+        }
+      }
+
+      function morphPath(targetPath) {
+        // Animate path morph with simple CSS transition
+        iconPath.style.transition = "d 0.5s ease";
+        iconPath.setAttribute("d", targetPath);
       }
 
       window.addEventListener("DOMContentLoaded", () => {
         const theme = document.documentElement.getAttribute("data-theme");
-        document.getElementById("themeIcon").textContent = theme === "dark" ? "🌙" : "☀️";
+        updateIcon(theme);
 
         const scrollY = localStorage.getItem("scrollY");
         if (scrollY !== null) window.scrollTo(0, parseInt(scrollY));
@@ -291,22 +351,26 @@
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
 
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("fade-in");
-          }
-        });
-      }, {
-        threshold: 0.1
-      });
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("fade-in");
+            }
+          });
+        },
+        {
+          threshold: 0.1,
+        }
+      );
 
-      document.querySelectorAll("main > *").forEach(el => {
+      document.querySelectorAll("main > *").forEach((el) => {
         observer.observe(el);
       });
     </script>
   </body>
 </html>
+
 
 
 
