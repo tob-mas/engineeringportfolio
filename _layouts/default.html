@@ -107,6 +107,13 @@
         fill: var(--primary);
       }
 
+      /* Change nav links and theme toggle text color to black in dark theme */
+      [data-theme="dark"] nav a,
+      [data-theme="dark"] .theme-toggle {
+        color: black;
+        border-color: black;
+      }
+
       main {
         padding: 3rem 1rem;
         max-width: 900px;
@@ -215,6 +222,11 @@
         color: white;
         padding: 2rem 1rem;
         margin-top: 3rem;
+      }
+
+      /* Change footer text color to black in dark theme */
+      [data-theme="dark"] footer {
+        color: black;
       }
 
       .footer-grid {
@@ -370,6 +382,7 @@
     </script>
   </body>
 </html>
+
 
 
 
