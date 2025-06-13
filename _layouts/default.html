@@ -1,43 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
-      body { font-family: sans-serif; margin: 0; }
-      nav {
-        background-color: #2d2d2d;
-        padding: 1rem;
-        text-align: center;
+      :root {
+        --bg: #f9fbfc;
+        --text: #1e1e1e;
+        --primary: #2d2d2d;
+        --accent: #4f9aff;
+        --hover: #3277e6;
       }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1a1a1a;
+          --text: #eaeaea;
+          --primary: #ffffff;
+          --accent: #4f9aff;
+          --hover: #72b2ff;
+        }
+      }
+
+      [data-theme="dark"] {
+        --bg: #1a1a1a;
+        --text: #eaeaea;
+        --primary: #ffffff;
+        --accent: #4f9aff;
+        --hover: #72b2ff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        transition: background 0.3s ease, color 0.3s ease;
+      }
+
+      nav {
+        background-color: var(--primary);
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
       nav a {
         color: white;
         text-decoration: none;
-        margin: 0 1rem;
-        font-weight: bold;
+        margin: 0 1.2rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
       }
+
       nav a:hover {
-        text-decoration: underline;
+        color: var(--accent);
+        border-bottom: 2px solid var(--accent);
+        padding-bottom: 2px;
       }
+
+      .theme-toggle {
+        margin-left: auto;
+        background: none;
+        border: 1px solid white;
+        color: white;
+        padding: 0.4rem 0.8rem;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        transition: background 0.3s ease;
+      }
+
+      .theme-toggle:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
       main {
-        padding: 2rem;
-        max-width: 800px;
+        padding: 3rem 1rem;
+        max-width: 900px;
         margin: auto;
+      }
+
+      h1, h2, h3 {
+        color: var(--primary);
+        margin-bottom: 1rem;
+      }
+
+      section {
+        margin-bottom: 3rem;
+      }
+
+      a {
+        color: var(--hover);
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: var(--accent);
+      }
+
+      hr {
+        margin: 2rem 0;
+        border: none;
+        height: 1px;
+        background-color: #ddd;
+      }
+
+      /* Fade-in Animation */
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.6s ease-out forwards;
+      }
+
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
     </style>
   </head>
   <body>
     <nav>
-  <a href="{{ "/" | relative_url }}">Home</a>
-  <a href="{{ "/3d_models/" | relative_url }}">3D Models</a>
-  <a href="{{ "/simulations/" | relative_url }}">Simulations</a>
-  <a href="{{ "/reports/" | relative_url }}">Reports</a>
-</nav>
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/3d_models/" | relative_url }}">3D Models</a>
+      <a href="{{ "/simulations/" | relative_url }}">Simulations</a>
+      <a href="{{ "/reports/" | relative_url }}">Reports</a>
+      <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+    </nav>
 
-
-    <main>
+    <main id="main-content">
       {{ content }}
     </main>
+
+    <script>
+      // Theme toggle
+      function toggleTheme() {
+        const html = document.documentElement;
+        const current = html.getAttribute('data-theme');
+        html.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
+      }
+
+      // Fade-in animation on scroll
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      document.querySelectorAll('main > *').forEach(el => {
+        observer.observe(el);
+      });
+    </script>
   </body>
 </html>
+
