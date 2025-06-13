@@ -6,14 +6,15 @@ title: CFD Simulation – Aircraft (10-06-25)
 # 🌊 CFD Simulation – Aircraft  
 **Date:** 10 June 2025
 
-Computational Fluid Dynamics (CFD) simulation to analyze airflow behavior around a small aircraft model during various flight stages.
+<div class="content-block">
+  <h3>📂 Simulation Assets</h3>
+  <p>- Visual results: <em>To be added</em><br>
+     - Input parameters: <em>To be added</em></p>
+</div>
 
-## 📂 Simulation Assets
+<div class="content-block">
+  <h3>📝 Overview</h3>
+  <p>This simulation was conducted using ANSYS Fluent, focusing on lift, drag, and vortex formation. Boundary conditions and turbulence models were chosen to reflect realistic subsonic conditions.</p>
+</div>
 
-- Visual results: *To be added*
-- Input parameters: *To be added*
-
-## 📝 Overview
-
-This simulation was conducted using ANSYS Fluent, focusing on lift, drag, and vortex formation. Boundary conditions and turbulence models were chosen to reflect realistic subsonic conditions.
 
