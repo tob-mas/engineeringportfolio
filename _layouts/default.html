@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -9,27 +9,33 @@
       :root {
         --bg: #f9fbfc;
         --text: #1e1e1e;
-        --primary: #2d2d2d;
+        --primary: #ffffff;
         --accent: #4f9aff;
         --hover: #3277e6;
+        --nav-bg: rgba(255, 255, 255, 0.85);
+        --btn-border: #1e1e1e;
       }
 
       @media (prefers-color-scheme: dark) {
         :root {
           --bg: #1a1a1a;
           --text: #eaeaea;
-          --primary: #ffffff;
+          --primary: #2d2d2d;
           --accent: #4f9aff;
           --hover: #72b2ff;
+          --nav-bg: rgba(30, 30, 30, 0.85);
+          --btn-border: #eaeaea;
         }
       }
 
       [data-theme="dark"] {
         --bg: #1a1a1a;
         --text: #eaeaea;
-        --primary: #ffffff;
+        --primary: #2d2d2d;
         --accent: #4f9aff;
         --hover: #72b2ff;
+        --nav-bg: rgba(30, 30, 30, 0.85);
+        --btn-border: #eaeaea;
       }
 
       * {
@@ -47,7 +53,9 @@
       }
 
       nav {
-        background-color: var(--primary);
+        background-color: var(--nav-bg);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
         padding: 1rem 2rem;
         display: flex;
         justify-content: center;
@@ -55,10 +63,12 @@
         position: sticky;
         top: 0;
         z-index: 1000;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
       }
 
       nav a {
-        color: white;
+        color: var(--text);
         text-decoration: none;
         margin: 0 1.2rem;
         font-weight: 600;
@@ -74,17 +84,19 @@
       .theme-toggle {
         margin-left: auto;
         background: none;
-        border: 1px solid white;
-        color: white;
+        border: 1px solid var(--btn-border);
+        color: var(--text);
         padding: 0.4rem 0.8rem;
         cursor: pointer;
-        border-radius: 4px;
+        border-radius: 6px;
         font-size: 0.9rem;
-        transition: background 0.3s ease;
+        transition: all 0.3s ease;
       }
 
       .theme-toggle:hover {
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(79, 154, 255, 0.1);
+        color: var(--accent);
+        border-color: var(--accent);
       }
 
       main {
@@ -119,7 +131,6 @@
         background-color: #ddd;
       }
 
-      /* Fade-in Animation */
       .fade-in {
         opacity: 0;
         transform: translateY(20px);
@@ -133,7 +144,6 @@
         }
       }
 
-      /* 💡 New .content-block styles for portfolio items */
       .content-block {
         border-left: 4px solid var(--accent);
         padding: 1rem 1.5rem;
@@ -157,10 +167,10 @@
   </head>
   <body>
     <nav>
-      <a href="{{ "/" | relative_url }}">Home</a>
-      <a href="{{ "/3d_models/" | relative_url }}">3D Models</a>
-      <a href="{{ "/simulations/" | relative_url }}">Simulations</a>
-      <a href="{{ "/reports/" | relative_url }}">Reports</a>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/3d_models/' | relative_url }}">3D Models</a>
+      <a href="{{ '/simulations/' | relative_url }}">Simulations</a>
+      <a href="{{ '/reports/' | relative_url }}">Reports</a>
       <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
     </nav>
 
@@ -193,6 +203,7 @@
     </script>
   </body>
 </html>
+
 
 
 
