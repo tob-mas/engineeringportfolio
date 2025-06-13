@@ -6,18 +6,20 @@ title: Technical Report – Aircraft Design & Simulation (10-06-25)
 # 📄 Technical Report – Aircraft Design & Simulation  
 **Date:** 10 June 2025
 
-A formal report combining design methodology and simulation outcomes for a small aircraft prototype.
+<div class="content-block">
+  <h3>📑 Report Access</h3>
+  <p>- PDF: <em>To be added</em></p>
+</div>
 
-## 📑 Report Access
+<div class="content-block">
+  <h3>📝 Summary</h3>
+  <p>This report includes:</p>
+  <ul>
+    <li>CAD modeling process and key design decisions</li>
+    <li>CFD simulation setup and result interpretation</li>
+    <li>Discussion of aerodynamic performance and potential improvements</li>
+  </ul>
+  <p>This report integrates technical analysis with practical design implementation.</p>
+</div>
 
-- PDF: *To be added*
-
-## 📝 Summary
-
-This report includes:
-- CAD modeling process and key design decisions
-- CFD simulation setup and result interpretation
-- Discussion of aerodynamic performance and potential improvements
-
-This report integrates technical analysis with practical design implementation.
 
