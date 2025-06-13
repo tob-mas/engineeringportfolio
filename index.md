@@ -27,7 +27,7 @@ Formal documentation of engineering analyses and projects.
 
 ## 📄 About Me
 
-I’m a Mechanical Engineer Degree Apprentice, balancing hands-on engineering work with university studies in mechanical engineering. I’m passionate about precision design, analysis, and driving innovation in every project I take on. I regularly use SolidWorks and CATIA for CAD, along with SolidWorks Simulation and Ansys CFD to bring ideas to life through detailed analysis. My work reflects a strong commitment to quality and continuous learning, always striving to improve. Being part of the IET and IMechE helps me stay connected with the engineering community and up to date with the latest industry developments — something I truly value as I grow in my career.
+I’m a Mechanical Engineer Degree Apprentice, balancing hands-on engineering work with university studies in mechanical engineering. I’m passionate about precision design, analysis, and driving innovation in every project I take on. I regularly use SolidWorks and CATIA for CAD, along with SolidWorks Simulation and Ansys CFD to bring ideas to life through detailed analysis. My work reflects a strong commitment to quality and continuous learning, always striving to improve. Being part of the IET and IMechE helps me stay connected with the engineering community and up to date with the latest industry developments something I truly value as I grow in my career.
 
 ---
 
