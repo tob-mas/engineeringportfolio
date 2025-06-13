@@ -1,47 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Professional portfolio showcasing 3D models, simulations, and technical reports.">
+    <meta name="author" content="Your Name">
+    <meta name="theme-color" content="#1a1a1a">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="Portfolio with 3D models, simulations, and technical reports.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/preview.png">
+    <meta property="og:url" content="https://yourdomain.github.io/">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
       :root {
         --bg: #f9fbfc;
         --text: #1e1e1e;
-        --primary: #ffffff;
+        --primary: #2d2d2d;
         --accent: #4f9aff;
         --hover: #3277e6;
-        --nav-bg: rgba(255, 255, 255, 0.85);
-        --btn-border: #1e1e1e;
       }
 
       @media (prefers-color-scheme: dark) {
         :root {
           --bg: #1a1a1a;
           --text: #eaeaea;
-          --primary: #2d2d2d;
+          --primary: #ffffff;
           --accent: #4f9aff;
           --hover: #72b2ff;
-          --nav-bg: rgba(30, 30, 30, 0.85);
-          --btn-border: #eaeaea;
         }
       }
 
       [data-theme="dark"] {
         --bg: #1a1a1a;
         --text: #eaeaea;
-        --primary: #2d2d2d;
+        --primary: #ffffff;
         --accent: #4f9aff;
         --hover: #72b2ff;
-        --nav-bg: rgba(30, 30, 30, 0.85);
-        --btn-border: #eaeaea;
       }
 
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
       }
 
       body {
@@ -53,18 +61,15 @@
       }
 
       nav {
-        background-color: var(--nav-bg);
-        backdrop-filter: blur(8px);
-        -webkit-backdrop-filter: blur(8px);
+        background-color: var(--primary);
         padding: 1rem 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         position: sticky;
         top: 0;
         z-index: 1000;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
       }
 
       nav a {
@@ -84,19 +89,17 @@
       .theme-toggle {
         margin-left: auto;
         background: none;
-        border: 1px solid var(--btn-border);
+        border: 1px solid var(--text);
         color: var(--text);
         padding: 0.4rem 0.8rem;
         cursor: pointer;
-        border-radius: 6px;
+        border-radius: 4px;
         font-size: 0.9rem;
-        transition: all 0.3s ease;
+        transition: background 0.3s ease, color 0.3s ease;
       }
 
       .theme-toggle:hover {
-        background: rgba(79, 154, 255, 0.1);
-        color: var(--accent);
-        border-color: var(--accent);
+        background: rgba(255, 255, 255, 0.1);
       }
 
       main {
@@ -151,6 +154,12 @@
         background: rgba(79, 154, 255, 0.05);
         border-radius: 8px;
         animation: fadeInUp 0.6s ease-out both;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+      }
+
+      .content-block:hover {
+        transform: translateY(-4px);
       }
 
       .content-block h3 {
@@ -162,6 +171,26 @@
       .content-block p {
         margin: 0;
         font-size: 0.95rem;
+      }
+
+      #backToTop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: var(--accent);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        display: none;
+        z-index: 100;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      #backToTop:hover {
+        background-color: var(--hover);
       }
     </style>
   </head>
@@ -178,24 +207,34 @@
       {{ content }}
     </main>
 
+    <button id="backToTop" onclick="scrollToTop()">↑</button>
+
     <script>
-      // Theme toggle
       function toggleTheme() {
         const html = document.documentElement;
         const current = html.getAttribute('data-theme');
         html.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
       }
 
-      // Fade-in animation on scroll
+      // Scroll-to-top
+      const backToTop = document.getElementById("backToTop");
+      window.onscroll = function () {
+        backToTop.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)
+          ? "block" : "none";
+      };
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      // Fade-in on scroll
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('fade-in');
           }
         });
-      }, {
-        threshold: 0.1
-      });
+      }, { threshold: 0.1 });
 
       document.querySelectorAll('main > *').forEach(el => {
         observer.observe(el);
@@ -203,6 +242,7 @@
     </script>
   </body>
 </html>
+
 
 
 
