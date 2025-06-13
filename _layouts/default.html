@@ -3,18 +3,41 @@
 <head>
   <meta charset="utf-8" />
   <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Professional portfolio showcasing 3D models, simulations, and technical reports.">
-  <meta name="author" content="Your Name">
-  <meta name="theme-color" content="#1a1a1a">
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="Portfolio with 3D models, simulations, and technical reports.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="/assets/preview.png">
-  <meta property="og:url" content="https://yourdomain.github.io/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Professional portfolio showcasing 3D models, simulations, and technical reports." />
+  <meta name="author" content="Your Name" />
+  <meta name="theme-color" content="#1a1a1a" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com" />
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" as="style" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="canonical" href="https://yourdomain.github.io/" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="Portfolio with 3D models, simulations, and technical reports." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/preview.png" />
+  <meta property="og:url" content="https://yourdomain.github.io/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Your Name",
+    "url": "https://yourdomain.github.io/",
+    "sameAs": [
+      "https://github.com/yourusername",
+      "https://linkedin.com/in/yourprofile"
+    ],
+    "jobTitle": "3D Modeler and Simulation Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Your Organization"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
   <style>
     :root {
       --bg: #f9fbfc;
@@ -22,6 +45,8 @@
       --primary: #2d2d2d;
       --accent: #4f9aff;
       --hover: #3277e6;
+      --nav-bg: rgba(255 255 255 / 0.8);
+      --nav-backdrop: blur(12px);
     }
 
     @media (prefers-color-scheme: dark) {
@@ -31,6 +56,8 @@
         --primary: #ffffff;
         --accent: #4f9aff;
         --hover: #72b2ff;
+        --nav-bg: rgba(26 26 26 / 0.8);
+        --nav-backdrop: blur(12px);
       }
     }
 
@@ -40,6 +67,8 @@
       --primary: #ffffff;
       --accent: #4f9aff;
       --hover: #72b2ff;
+      --nav-bg: rgba(26 26 26 / 0.8);
+      --nav-backdrop: blur(12px);
     }
 
     * {
@@ -51,6 +80,9 @@
     html {
       scroll-behavior: smooth;
       transition: background 0.4s ease, color 0.4s ease;
+      font-size: clamp(14px, 1.5vw, 18px);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
 
     body {
@@ -58,19 +90,23 @@
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.6;
+      min-height: 100vh;
+      padding-bottom: 3rem; /* for sticky footer spacing */
     }
 
     nav {
-      background-color: var(--bg);
-      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      border-bottom: 1px solid #ddd;
+      padding: 1rem 2rem;
+      background-color: var(--nav-bg);
+      backdrop-filter: var(--nav-backdrop);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
 
     nav a {
@@ -79,6 +115,13 @@
       margin: 0 1.2rem;
       font-weight: 600;
       transition: all 0.3s ease;
+      outline-offset: 3px;
+    }
+
+    nav a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 3px;
     }
 
     nav a:hover {
@@ -97,10 +140,11 @@
       border-radius: 4px;
       font-size: 0.9rem;
       transition: background 0.3s ease, color 0.3s ease;
+      outline-offset: 3px;
     }
 
     .theme-toggle:hover,
-    .theme-toggle:focus {
+    .theme-toggle:focus-visible {
       background: rgba(255, 255, 255, 0.1);
       outline: none;
     }
@@ -114,6 +158,8 @@
     h1, h2, h3 {
       color: var(--primary);
       margin-bottom: 1rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
     }
 
     section {
@@ -137,6 +183,7 @@
       background-color: #ddd;
     }
 
+    /* Fade-in Animation */
     .fade-in {
       opacity: 0;
       transform: translateY(20px);
@@ -150,6 +197,7 @@
       }
     }
 
+    /* Portfolio content block */
     .content-block {
       border-left: 4px solid var(--accent);
       padding: 1rem 1.5rem;
@@ -161,8 +209,10 @@
       transition: transform 0.3s ease;
     }
 
-    .content-block:hover {
+    .content-block:hover,
+    .content-block:focus-within {
       transform: translateY(-4px);
+      outline: none;
     }
 
     .content-block h3 {
@@ -174,26 +224,6 @@
     .content-block p {
       margin: 0;
       font-size: 0.95rem;
-    }
-
-    #backToTop {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: var(--accent);
-      color: white;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 50px;
-      cursor: pointer;
-      font-size: 1.2rem;
-      display: none;
-      z-index: 100;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    #backToTop:hover {
-      background-color: var(--hover);
     }
 
     /* Scroll progress bar */
@@ -208,87 +238,174 @@
       transition: width 0.2s ease;
     }
 
-    /* Custom Scrollbar */
+    /* Back to top button */
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--accent);
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 1.2rem;
+      display: none;
+      z-index: 100;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    #backToTop:hover,
+    #backToTop:focus-visible {
+      background-color: var(--hover);
+      outline: none;
+    }
+
+    /* Focus styles for accessibility */
+    button:focus-visible,
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Custom scrollbar */
     ::-webkit-scrollbar {
       width: 10px;
     }
-
     ::-webkit-scrollbar-track {
       background: var(--bg);
     }
-
     ::-webkit-scrollbar-thumb {
-      background: var(--accent);
-      border-radius: 5px;
+      background-color: var(--accent);
+      border-radius: 10px;
+      border: 2px solid var(--bg);
     }
 
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--hover);
+    /* Responsive nav for mobile */
+    @media (max-width: 600px) {
+      nav {
+        flex-wrap: wrap;
+        padding: 1rem;
+      }
+
+      nav a {
+        margin: 0.5rem 1rem;
+      }
+
+      .theme-toggle {
+        margin: 0.5rem 1rem 0 auto;
+      }
     }
   </style>
 </head>
 <body>
-  <div id="scrollProgress"></div>
+  <!-- Scroll Progress Bar -->
+  <div id="scrollProgress" aria-hidden="true"></div>
 
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/3d_models/' | relative_url }}">3D Models</a>
-    <a href="{{ '/simulations/' | relative_url }}">Simulations</a>
-    <a href="{{ '/reports/' | relative_url }}">Reports</a>
-    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light and dark theme">Toggle Theme</button>
+  <nav role="navigation" aria-label="Primary Navigation">
+    <a href="{{ "/" | relative_url }}" tabindex="0">Home</a>
+    <a href="{{ "/3d_models/" | relative_url }}" tabindex="0">3D Models</a>
+    <a href="{{ "/simulations/" | relative_url }}" tabindex="0">Simulations</a>
+    <a href="{{ "/reports/" | relative_url }}" tabindex="0">Reports</a>
+    <button
+      class="theme-toggle"
+      aria-label="Toggle dark or light theme"
+      onclick="toggleTheme()"
+      tabindex="0"
+    >
+      Toggle Theme
+    </button>
   </nav>
 
-  <main id="main-content">
+  <main id="main-content" role="main">
     {{ content }}
   </main>
 
-  <button id="backToTop" onclick="scrollToTop()" aria-label="Scroll to top">↑</button>
+  <!-- Back to Top Button -->
+  <button
+    id="backToTop"
+    aria-label="Back to top"
+    onclick="scrollToTop()"
+    tabindex="0"
+  >
+    ↑
+  </button>
 
   <script>
-    // Load stored theme preference
-    (function () {
-      const storedTheme = localStorage.getItem('theme');
-      if (storedTheme) {
-        document.documentElement.setAttribute('data-theme', storedTheme);
-      }
-    })();
-
+    // Theme toggle
     function toggleTheme() {
       const html = document.documentElement;
-      const current = html.getAttribute('data-theme') || 'light';
-      const newTheme = current === 'dark' ? 'light' : 'dark';
-      html.setAttribute('data-theme', newTheme);
-      localStorage.setItem('theme', newTheme);
+      const current = html.getAttribute('data-theme');
+      html.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
     }
 
-    // Scroll-to-top
-    const backToTop = document.getElementById("backToTop");
-    window.onscroll = function () {
-      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      backToTop.style.display = scrollTop > 100 ? "block" : "none";
-      document.getElementById("scrollProgress").style.width =
-        (scrollTop / (document.documentElement.scrollHeight - window.innerHeight)) * 100 + "%";
-    };
-
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    // Fade-in animation
+    // Fade-in animation on scroll
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('fade-in');
         }
       });
-    }, { threshold: 0.1 });
+    }, {
+      threshold: 0.1
+    });
 
     document.querySelectorAll('main > *').forEach(el => {
       observer.observe(el);
     });
+
+    // Scroll progress bar and Back-to-top button
+    const scrollProgress = document.getElementById('scrollProgress');
+    const backToTopBtn = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrolled = (scrollTop / docHeight) * 100;
+      scrollProgress.style.width = scrolled + '%';
+
+      if (scrollTop > 300) {
+        backToTopBtn.style.display = 'block';
+      } else {
+        backToTopBtn.style.display = 'none';
+      }
+    });
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      backToTopBtn.blur();
+    }
+
+    // Keyboard accessibility for theme toggle (optional)
+    document.querySelector('.theme-toggle').addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleTheme();
+      }
+    });
+
+    // Lazy loading future images (future proof)
+    // Example:
+    // document.querySelectorAll('img').forEach(img => {
+    //   img.loading = 'lazy';
+    // });
+
+    // Analytics (optional)
+    /*
+    // Example Plausible Analytics snippet
+    (function(){
+      var d=document, s=d.createElement('script');
+      s.src='https://plausible.io/js/plausible.js';
+      s.defer=true;
+      s.dataset.domain='yourdomain.github.io';
+      d.head.appendChild(s);
+    })();
+    */
   </script>
 </body>
 </html>
+
 
 
 
