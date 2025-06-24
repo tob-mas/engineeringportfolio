@@ -1,22 +1,24 @@
-
 ---
 layout: default
-title: 3D Model – Aircraft Design (10-06-2025)
+title: Model 1 – 3D Model of a Plane
+permalink: /3d_models/10-06-25/
 ---
 
-# 🧱 3D Model – Aircraft Design  
-**Date:** 10 June 2025
+# ✈️ Model 1 – 3D Model of a Plane
+
+This model includes both **STL** and **STEP** formats for 3D printing and CAD editing.
+
+---
+
+## 📁 Download Files
 
 <div class="content-block">
-  <h3>📁 Downloads</h3>
-  <p>- STEP file: Download STEP<br>
-     - Zipped STL file: Download Zipped STL</p>
+  <ul>
+    <li><a href="{{ site.baseurl }}/3d_models/10-06-25/Plane%20Model%20STL.zip" download>📦 Download STL Files (ZIP)</a></li>
+    <li><a href="{{ site.baseurl }}/3d_models/10-06-25/Plane%20Model.STEP" download>🧩 Download STEP File</a></li>
+  </ul>
 </div>
 
-<div class="content-block">
-<h3>📝 Description</h3>
-  <p>This model showcases key aerodynamic surfaces and structural elements of a conceptual aircraft design. It was developed as part of a broader design project and is intended for both visualization and computational analysis.</p>
-</div>
 
 
 
