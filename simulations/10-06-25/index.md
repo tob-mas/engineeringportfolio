@@ -9,7 +9,6 @@ title: CFD Simulation – Aircraft (10-06-25)
 <div class="content-block">
   <h3>📂 Simulation Assets</h3>
   <p>- Visual results: <em>To be added</em><br>
-     - Input parameters: <em>To be added</em></p>
 </div>
 
 <div class="content-block">
