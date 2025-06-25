@@ -17,4 +17,9 @@ This section presents simulation projects related to **structural**, **thermal**
   <p>Simulates airflow around a plane at various stages of flight. Includes input parameters, result images, and video summaries.</p>
 </div>
 
+<div class="content-block">
+  <h3><a href="{{ site.baseurl }}/simulations/18.06.25">CFD Study – F1 2026 Front Wing Designs</a></h3>
+  <p>Computational Fluid Dynamics (CFD) simulations of three F1 front wing concepts to evaluate airflow behavior, pressure distribution, and aerodynamic forces.</p>
+</div>
+
 
