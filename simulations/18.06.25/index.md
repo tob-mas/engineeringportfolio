@@ -1,10 +1,10 @@
 ---
 layout: default
-title: CFD Study – F1 2026 Front Wing Designs (18-06-25)
+title: CFD/FEA Study – F1 2026 Front Wing Designs (18-06-25)
 permalink: /simulations/18.06.25/
 ---
 
-# 🌬️ CFD Study – F1 2026 Front Wing Designs  
+# 🌬️ CFD/FEA Study – F1 2026 Front Wing Designs  
 **Date:** 18 June 2025
 
 ---
@@ -18,12 +18,12 @@ permalink: /simulations/18.06.25/
 
 <div class="content-block">
   <h3>🔍 Overview</h3>
-  <p>This simulation study evaluates the aerodynamic performance of three F1 front wing models developed for the 2026 FIA regulations using SolidWorks and Ansys Fluent.</p>
+  <p>This simulation study evaluates the aerodynamic and structural performance of three F1 front wing models developed for the 2026 FIA regulations using SolidWorks, Ansys Fluent and Ansys Mechanical.</p>
   <ul>
-    <li>Mesh generation and boundary conditions setup in Ansys Fluent</li>
+    <li>FEA deformation results on Ansys Mechanical</li>
     <li>Visualization of airflow and pressure contours around the wings</li>
     <li>Quantitative analysis of drag and lift coefficients for each design</li>
   </ul>
-  <p>The ZIP file includes simulation screenshots, post-processing plots, and video walkthroughs of the flow behavior.</p>
+  <p>The ZIP file includes simulation screenshots and post-processing plots.</p>
 </div>
 
