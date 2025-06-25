@@ -17,4 +17,10 @@ Formal documentation developed for academic coursework, professional research, a
   <p>Combines CAD and CFD insights. PDF report includes embedded charts, diagrams, and references.</p>
 </div>
 
+<div class="content-block">
+  <h3><a href="{{ site.baseurl }}/reports/18.06.25">F1 2026 Front Wing Design Study</a></h3>
+  <p>Technical report covering 3D modelling and performance comparison of three front wing concepts for the 2026 F1 season, based on FIA guidelines.</p>
+</div>
+
+
 
