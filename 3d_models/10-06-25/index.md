@@ -6,7 +6,7 @@ permalink: /3d_models/10-06-25/
 
 # ✈️ Model 1 – 3D Model of a Plane
 
-This model includes both **STL** and **STEP** formats for 3D printing and CAD editing.
+This model includes both **STL** and **STEP** formats.
 
 ---
 
