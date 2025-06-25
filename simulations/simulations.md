@@ -18,8 +18,8 @@ This section presents simulation projects related to **structural**, **thermal**
 </div>
 
 <div class="content-block">
-  <h3><a href="{{ site.baseurl }}/simulations/18.06.25">CFD Study – F1 2026 Front Wing Designs</a></h3>
-  <p>Computational Fluid Dynamics (CFD) simulations of three F1 front wing concepts to evaluate airflow behavior, pressure distribution, and aerodynamic forces.</p>
+  <h3><a href="{{ site.baseurl }}/simulations/18.06.25">CFD/FEA Study – F1 2026 Front Wing Designs</a></h3>
+  <p>Computational Fluid Dynamics (CFD) simulations of three F1 front wing concepts to evaluate airflow behavior, pressure distribution, and aerodynamic forces. Alongside this there is an FEA study to ensure the front wings match FIA Guidelines</p>
 </div>
 
 
