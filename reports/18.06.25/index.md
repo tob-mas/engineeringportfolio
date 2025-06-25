@@ -23,6 +23,7 @@ permalink: /reports/18.06.25/
   <ul>
     <li>Design rationale for each of the three front wing concepts</li>
     <li>Modeling approach using SolidWorks in accordance with FIA 2026 regulations</li>
+    <li>Overview of structural performace under load</li>
     <li>Overview of aerodynamic intent for each design</li>
     <li>Reference to key technical clauses used from FIA regulations</li>
   </ul>
