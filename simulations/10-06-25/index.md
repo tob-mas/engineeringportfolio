@@ -18,7 +18,7 @@ permalink: /simulations/10-06-25/
 
 <div class="content-block">
   <h3>📝 Overview</h3>
-  <p>This simulation was conducted using <strong>ANSYS Fluent</strong>, focusing on lift, drag, and vortex formation. Boundary conditions and turbulence models were chosen to reflect realistic subsonic conditions.</p>
+  <p>This simulation was conducted using <strong>SolidWorks Flow Simulation package</strong>, focusing on lift, drag, and vortex formation. Boundary conditions and turbulence models were chosen to reflect realistic subsonic conditions.</p>
 </div>
 
 
