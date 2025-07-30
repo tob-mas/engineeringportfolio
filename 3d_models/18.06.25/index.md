@@ -32,5 +32,12 @@ The goal of this design study is to evaluate and compare aerodynamic characteris
     <li><a href="{{ site.baseurl }}/3d_models/18.06.25/design3/Design3.STL" download>📄 Download STL File</a></li>
     <li><a href="{{ site.baseurl }}/3d_models/18.06.25/design3/Design3.STEP" download>🧩 Download STEP File</a></li>
   </ul>
+
+  <h4>🔧 Design 4 – Optimisation Study</h4>
+  <ul>
+    <li><a href="{{ site.baseurl }}/3d_models/18.06.25/optimisation/2026%20Front%20Wing_Optimising.SLDPRT" download>📄 Download SLDPRT File</a></li>
+    <li><a href="{{ site.baseurl }}/3d_models/18.06.25/optimisation/2026%20Front%20Wing_Optimising.STEP" download>🧩 Download STEP File</a></li>
+  </ul>
 </div>
+
 
