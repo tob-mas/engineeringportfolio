@@ -27,6 +27,7 @@ permalink: /reports/18.06.25/
     <li>Overview of structural performace under load</li>
     <li>Overview of aerodynamic intent for each design</li>
     <li>Reference to key technical clauses used from FIA regulations</li>
+    <li>Optimised design report, using the simulation results from the inital project</li>
   </ul>
   <p>The report serves as a foundation for further CFD-based simulation and performance validation.</p>
 </div>
