@@ -23,6 +23,13 @@ This section includes 3D CAD models and engineering designs created using tools 
   <p>Files are available in <strong>STL</strong> and <strong>STEP</strong> formats.</p>
 </div>
 
+<div class="content-block">
+  <h3><a href="{{ site.baseurl }}/3d_models/28-07-25">Model 3 – Full 2026 F1 Car Assembly</a></h3>
+  <p>This is a complete assembly of a 2026 Formula 1 car designed using <strong>SolidWorks</strong>. The model includes structural components and aerodynamic surfaces.</p>
+  <p>Files are available in <strong>SLDASM</strong> and <strong>STEP</strong> formats.</p>
+</div>
+
+
 
 
 
