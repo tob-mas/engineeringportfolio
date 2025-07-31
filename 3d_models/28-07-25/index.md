@@ -16,7 +16,7 @@ The assembly was built to evaluate component integration, aerodynamic efficiency
 
 <div class="content-block">
   <ul>
-    <li><a href="{{ site.baseurl }}/3d_models/28-07-25/My%202026%20F1%20Car.SLDASM" download>📄 Download SLDASM (SolidWorks Assembly)</a></li>
+    <li><a href="{{ site.baseurl }}/3d_models/28-07-25/My%202026%20F1%20Car.SLDASM" download>📄 Download SLDASM (SolidWorks 2017 Assembly)</a></li>
     <li><a href="{{ site.baseurl }}/3d_models/28-07-25/My%202026%20F1%20Car.STEP" download>🧩 Download STEP File</a></li>
   </ul>
 </div>
