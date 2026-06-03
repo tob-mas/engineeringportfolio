@@ -1,37 +1,47 @@
-# 🛠️ Engineering Portfolio
+🛠️ Engineering Portfolio
 
-Welcome to my engineering portfolio! This repository showcases my work in **3D Modeling**, **Simulations**, and **Technical reports** developed during my academic and professional journey.
+Welcome to my Engineering Portfolio repository. This collection showcases selected projects in Computer-Aided Design (CAD), Engineering Simulation, and Technical Analysis, demonstrating my approach to solving engineering challenges through design, modelling, and analytical methods.
 
----
+🚀 About This Portfolio
 
-## 📁 Folder Structure
+This repository serves as a central location for projects completed throughout my academic and professional development. Each project highlights different aspects of the engineering design process, including:
+3D modelling and product design
+Simulation and performance analysis
+Technical documentation and reporting
+Engineering problem-solving methodologies
 
-- [`3D_models/`](./3D_models): CAD and 3D model files.
-- [`simulations/`](./simulations): Simulation scripts and project files.
-- [`reports/`](./reports): Reports detailing my design processes, analyses, and conclusions.
+📂 Repository Structure
 
----
+📐 3D Models
+Contains CAD models, assemblies, and design files created using industry-standard engineering software.
+Location: 3D_models/
 
-## ✨ Project Highlights 
+📊 Simulations
+Includes simulation projects, analysis files, and supporting data used to evaluate design performance and validate engineering decisions.
+Location: simulations/
 
-Here’s a preview of the projects I’ll be uploading:
+📑 Technical Reports
+Documentation detailing project objectives, methodologies, calculations, simulation results, and engineering conclusions.
+Location: reports/
 
-- ✈️ **Basic 3D Model of an aircraft and corresponding simulations with a small report on results**
+✨ Featured Projects
+🏎️ Formula 1 2025 Car Design & Aerodynamic Optimisation
+Designed and modelled a complete Formula 1 2025 car in SolidWorks, followed by CFD analysis and aerodynamic optimisation using AirShaper. The project focused on improving aerodynamic efficiency through an iterative design workflow, evaluating the impact of geometry changes on drag and downforce performance. This work demonstrates advanced CAD modelling, CFD simulation, and engineering optimisation skills.
 
-Stay tuned for detailed writeups and downloadable files.
+🎯 Objectives
+This portfolio aims to demonstrate:
+Engineering design proficiency
+CAD modelling capabilities
+Simulation and analytical skills
+Technical communication through structured reporting
+Continuous professional development
 
----
+📈 Ongoing Development
+New projects, reports, and simulations will be uploaded regularly as additional work is completed and documented.
 
-## 📌 How to Use
+📬 Contact
+If you would like to discuss any of the projects, provide feedback, or explore collaboration opportunities, feel free to reach out through GitHub:
+https://github.com/tob-mas
 
-- Browse the folders above to explore different categories of work.
-- Files will be added regularly as I continue uploading my portfolio.
-
----
-
-## 📬 Contact
-
-If you have questions or would like to collaborate, feel free to reach out via [GitHub Discussions](https://github.com/tob-mas/engineeringportfolio/discussions).
-
----
-
+📄 License
+This repository is intended for portfolio and educational purposes. Please contact me before reusing or redistributing any content.
