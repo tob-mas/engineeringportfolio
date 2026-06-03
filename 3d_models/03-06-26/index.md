@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Model – 2025 F1 Concept Car (03-06-2026)
+title: Model – 2025 F1 Concept Car
 permalink: /3d_models/03-06-26/
 ---
 
@@ -11,7 +11,6 @@ This project presents a **3D CAD model of a 2025 Formula 1 concept car**, develo
 The model was created as part of a broader aerodynamic development study, focusing on full vehicle integration and simulation-ready geometry.
 
 ---
-
 
 ## 🖼️ View Model Images
 
@@ -49,6 +48,3 @@ The model was created as part of a broader aerodynamic development study, focusi
     </li>
   </ul>
 </div>
-
-
----
