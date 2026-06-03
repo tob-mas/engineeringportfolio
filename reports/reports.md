@@ -24,7 +24,7 @@ Formal documentation developed for academic coursework, professional research, a
 
 <div class="content-block">
   <h3>
-    {{ site.baseurl }}/reports/03-06-2026
+    {{ site.baseurl }}/reports/03-06-26
       2025 F1 Concept Car Development Report
     </a>
   </h3>
