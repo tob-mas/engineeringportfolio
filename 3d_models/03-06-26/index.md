@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Model – 2025 F1 Concept Car (03-06-2026)
-permalink: /3d_models/03-06-2026/
+permalink: /3d_models/03-06-26/
 ---
 
 # 🏎️ 3D Model – 2025 Formula 1 Concept Car
