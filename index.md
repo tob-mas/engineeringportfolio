@@ -40,6 +40,30 @@ A complete engineering project combining **CAD modelling, CFD simulation, and ae
 
 ---
 
+## 🏁 Formula Student
+
+Work related to Formula Student, including design, analysis, and contributions to team-based engineering projects.
+
+- 🚧 Projects and contributions coming soon
+
+---
+
+## 🎓 University Projects
+
+Engineering projects completed as part of university coursework, demonstrating technical understanding and applied problem-solving.
+
+- 📘 Projects to be added
+
+---
+
+## 📜 Certifications
+
+Professional and technical certifications supporting my development as an engineer.
+
+- 📂 Certifications to be added
+
+---
+
 ## 📄 About Me
 
 I’m a Mechanical Engineer Degree Apprentice, balancing hands-on engineering work with university studies in mechanical engineering. I’m passionate about precision design, analysis, and driving innovation in every project I take on. I regularly use SolidWorks and CATIA for CAD, along with SolidWorks Simulation and Ansys CFD to bring ideas to life through detailed analysis.  
