@@ -32,7 +32,7 @@ This section includes 3D CAD models and engineering designs created using tools 
 
 <div class="content-block">
   <h3>
-    <a href="{{ site.baseurl }}/3d_models/03-06-2026">
+    <a href="{{ site.baseurl }}/3d_models/03-06-26">
       Model 4 – 2025 F1 Concept Car Development
     </a>
   </h3>
