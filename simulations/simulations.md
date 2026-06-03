@@ -24,7 +24,7 @@ This section presents simulation projects related to **structural**, **thermal**
 
 <div class="content-block">
   <h3>
-    <a href="{{ site.baseurl }}/simulations/03-06-2026">
+    <a href="{{ site.baseurl }}/simulations/03-06-26">
       CFD Study – 2025 F1 Concept Car Development
     </a>
   </h3>
