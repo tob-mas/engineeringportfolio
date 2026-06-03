@@ -19,7 +19,7 @@ The report covers the complete workflow, including CAD modelling, CFD analysis, 
 <div class="content-block">
   <ul>
     <li>
-      <a href="{{ site.baseurl }}/reports/03-06-2026/Portfolio%20Project%20Report.pdf" target="_blank">
+      <a href="{{ site.baseurl }}/reports/03-06-26/Portfolio%20Project%20Report.pdf" target="_blank">
         📑 Open Technical Report
       </a>
     </li>
