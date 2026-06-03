@@ -17,13 +17,36 @@ The model was created as part of a broader aerodynamic development study, focusi
 
 <div class="content-block">
   <ul>
-    <li>{{ site.baseurl }}/3d_models/03-06-2026/Front 3-4 Car.jpg📷 Front 3/4 View</a></li>
-    <li>{{ site.baseurl }}/3d_models/03-06-2026/Rear 3-4 Car.jpg📷 Rear 3/4 View</a></li>
-    <li>{{ site.baseurl }}/3d_models/03-06-2026/Front on View.jpg📷 Front View</a></li>
-    <li>{{ site.baseurl }}/3d_models/03-06-2026/Zoomed 3-4 Front View.jpg📷 Front Detail</a></li>
-    <li>{{ site.baseurl }}/3d_models/03-06-2026/Zoomed Rear View.jpg📷 Rear Detail</a></li>
-    <li>{{ site.baseurl }}/3d_models/03-06-2026/Zoomed Helmet.jpg📷 Cockpit Detail</a></li>
+    <li>
+      <a href="{{ site.baseurl }}/3d_models/03-06-2026/Front%203-4%20Car.jpg">
+        📷 Front 3/4 View
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/3d_models/03-06-2026/Rear%203-4%20Car.jpg">
+        📷 Rear 3/4 View
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/3d_models/03-06-2026/Front%20on%20View.jpg">
+        📷 Front View
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/3d_models/03-06-2026/Zoomed%203-4%20Front%20View.jpg">
+        📷 Front Detail
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/3d_models/03-06-2026/Zoomed%20Rear%20View.jpg">
+        📷 Rear Detail
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/3d_models/03-06-2026/Zoomed%20Helmet.jpg">
+        📷 Cockpit Detail
+      </a>
+    </li>
   </ul>
 </div>
-
 ---
