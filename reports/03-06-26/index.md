@@ -19,12 +19,23 @@ The report covers the complete workflow, including CAD modelling, CFD analysis, 
 <div class="content-block">
   <ul>
     <li>
-      <a href="{{ site.baseurl }}/reports/03-06-2026/Portfolio Project Report.pdf" target="_blank">
+      <a href="{{ site.baseurl }}/reports/03-06-2026/Portfolio%20Project%20Report.pdf" target="_blank">
         📑 Open Technical Report
       </a>
     </li>
   </ul>
 </div>
+
+---
+
+## 📊 Project Overview
+
+This report presents a full aerodynamic development study of a 2025 Formula 1 concept car, including:
+
+- Parametric CAD modelling in SolidWorks
+- CFD validation and refinement using AirShaper
+- Iterative optimisation targeting drag reduction and downforce balance
+- Flow structure analysis including wake control and pressure distributio
 
 ---
 
