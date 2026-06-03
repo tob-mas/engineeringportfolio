@@ -24,13 +24,17 @@ Formal documentation developed for academic coursework, professional research, a
 
 <div class="content-block">
   <h3>
-    {{ site.baseurl }}/reports/03-06-26
+    <a href="{{ site.baseurl }}/reports/03-06-26">
       2025 F1 Concept Car Development Report
     </a>
   </h3>
   <p>
-    Full engineering report covering a simulation-led development workflow, including CAD modelling, CFD analysis, and aerodynamic optimisation of a Formula 1 concept car.
+    
+A full vehicle aerodynamic development study of a 2025 Formula 1 concept car.
+  The project integrates CAD modelling in SolidWorks with CFD analysis and iterative design optimisation, focusing on drag reduction, downforce generation, and flow structure control.
+
   </p>
 </div>
 
+---
 
