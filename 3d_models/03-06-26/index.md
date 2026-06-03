@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Model – 2025 F1 Concept Car (03-06-2026)
