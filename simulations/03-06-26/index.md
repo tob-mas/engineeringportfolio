@@ -1,43 +1,38 @@
 
 ---
 layout: default
-title: Simulation – 03-06-2026 Project
+title: Simulation – 2025 F1 Aerodynamic Study (03-06-2026)
 permalink: /simulations/03-06-2026/
 ---
 
-# 🌊 Simulation – Project Title
+# 🌊 CFD Simulations – 2025 Formula 1 Concept Car
 
-This project presents a **CFD / FEA analysis** investigating performance characteristics under defined conditions.
+This section contains **CFD analyses carried out on a 2025 Formula 1 concept car**.
+
+The simulations follow a structured development approach, progressing from an initial styling model through two optimisation stages.
 
 ---
 
-## 📄 Simulation Report
+## 📄 Simulation Reports
 
 <div class="content-block">
-  <a href="{{ site.baseurl }}/simulations/03-06-2026/simulation.pdf" download>
-    📥 Download Simulation Report
-  </a>
+  <ul>
+    <li>
+      {{ site.baseurl }}/simulations/03-06-2026/CFD_Analyses_Styling_Model.pdf
+        📄 Baseline Styling Model
+      </a>
+    </li>
+    <li>
+      {{ site.baseurl }}/simulations/03-06-2026/CFD_Analyses_Optimization_1.pdf
+        📄 First Optimisation Study
+      </a>
+    </li>
+    <li>
+      {{ site.baseurl }}/simulations/03-06-2026/CFD_Analyses_Optimization_2.pdf
+        📄 Final Optimisation Study
+      </a>
+    </li>
+  </ul>
 </div>
-
+ 
 ---
-
-## 👀 Preview
-
-<iframe src="{{ site.baseurl }}/simulations/03-06-2026/simulation.pdf" width="100%" height="600px"></iframe>
-
----
-
-## 📊 Key Results
-
-- Lift Coefficient: **X.XX**
-- Drag Coefficient: **X.XX**
-- Structural Safety Factor: **X.X**
-
----
-
-## 🧠 Method
-
-- CFD conducted using Ansys / Airshaper  
-- Mesh refinement approach applied  
-- Boundary conditions defined for realistic operation  
-``
