@@ -29,10 +29,8 @@ Formal documentation developed for academic coursework, professional research, a
     </a>
   </h3>
   <p>
-    
-A full vehicle aerodynamic development study of a 2025 Formula 1 concept car.
-  The project integrates CAD modelling in SolidWorks with CFD analysis and iterative design optimisation, focusing on drag reduction, downforce generation, and flow structure control.
-
+    A full vehicle aerodynamic development study of a 2025 Formula 1 concept car.
+    The project integrates CAD modelling in SolidWorks with CFD analysis and iterative optimisation, focusing on drag reduction, downforce generation, and flow structure control.
   </p>
 </div>
 
