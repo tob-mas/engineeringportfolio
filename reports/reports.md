@@ -22,5 +22,15 @@ Formal documentation developed for academic coursework, professional research, a
   <p>Technical reports covering 3D modelling and performance comparison of three front wing concepts and the optimised design for the 2026 F1 season, based on FIA guidelines.</p>
 </div>
 
+<div class="content-block">
+  <h3>
+    {{ site.baseurl }}/reports/03-06-2026
+      2025 F1 Concept Car Development Report
+    </a>
+  </h3>
+  <p>
+    Full engineering report covering a simulation-led development workflow, including CAD modelling, CFD analysis, and aerodynamic optimisation of a Formula 1 concept car.
+  </p>
+</div>
 
 
