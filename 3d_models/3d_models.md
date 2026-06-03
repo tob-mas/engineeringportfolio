@@ -41,8 +41,4 @@ A full vehicle CAD model developed in <strong>SolidWorks</strong>, supporting ae
   </p>
 </div>
 
-
-
-
-
-
+---
