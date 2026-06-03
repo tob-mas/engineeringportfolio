@@ -30,6 +30,19 @@ This section includes 3D CAD models and engineering designs created using tools 
 </div>
 
 
+<div class="content-block">
+  <h3>
+    <a href="{{ site.baseurl }}/3d_models/03-06-2026">
+      Model 4 – 2025 F1 Concept Car Development
+    </a>
+  </h3>
+  <p>
+A full vehicle CAD model developed in <strong>SolidWorks</strong>, supporting aerodynamic analysis and iterative CFD optimisation for a 2025 Formula 1 concept car.
+  </p>
+</div>
+
+
+
 
 
 
