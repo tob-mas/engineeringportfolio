@@ -65,8 +65,8 @@ The geometry was intentionally built to allow **CFD analysis and iterative refin
 
 ## 🛠️ CAD Development Approach
 
-- Full vehicle model created using **surface and solid-body modelling** techniques [1](https://eaton-my.sharepoint.com/personal/tobyimason_eaton_com/Documents/zRandom/Microsoft%20Copilot%20Chat%20Files/Portfolio%20Project%20Report.pdf)  
-- Focus on **complete system integration**, not just isolated components [1](https://eaton-my.sharepoint.com/personal/tobyimason_eaton_com/Documents/zRandom/Microsoft%20Copilot%20Chat%20Files/Portfolio%20Project%20Report.pdf)  
+- Full vehicle model created using **surface and solid-body modelling** techniques
+- Focus on **complete system integration**, not just isolated components
 - Geometry designed to be **CFD-ready**, enabling aerodynamic evaluation  
 - Key areas modelled with aerodynamic intent:
   - Smooth surface transitions to reduce flow separation  
@@ -88,17 +88,6 @@ This demonstrates:
 ✅ Ability to build complex engineering CAD  
 ✅ Understanding of aerodynamic systems  
 ✅ Use of CAD as part of a **structured engineering workflow**  
-
----
-
-## 🔗 Related Work
-
-This model is part of a full engineering study including:
-
-- 📊 simulations/03-06-2026  
-- 📄 reports/03-06-2026  
-
-These sections include CFD results and the full technical report documenting the optimisation process.
 
 ---
 ``
