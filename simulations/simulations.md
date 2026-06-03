@@ -22,4 +22,14 @@ This section presents simulation projects related to **structural**, **thermal**
   <p>Computational Fluid Dynamics (CFD) simulations of three F1 front wing concepts to evaluate airflow behavior, pressure distribution, and aerodynamic forces. Alongside this there is an FEA study to ensure the front wings match FIA Guidelines</p>
 </div>
 
+<div class="content-block">
+  <h3>
+    <a href="{{ site.baseurl }}/simulations/03-06-2026">
+      CFD Study – 2025 F1 Concept Car Development
+    </a>
+  </h3>
+  <p>
+    CFD analysis of a full vehicle concept developed through iterative optimisation, evaluating aerodynamic performance across multiple design stages.
+  </p>
+</div>
 
