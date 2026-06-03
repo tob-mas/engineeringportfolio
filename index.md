@@ -28,15 +28,16 @@ Formal documentation of engineering analyses and projects.
 
 ---
 
+
 ## 🌟 Highlighted Project
 
 ### 🏎️ 2025 Formula 1 Concept Car Development
 
 A complete engineering project combining **CAD modelling, CFD simulation, and aerodynamic optimisation**, developed through an iterative, simulation-led workflow.
 
-- 🧱 [View 3D Model](3d_models/03-06-2026)
-- 🌊 [View Simulations](simulations/03-06-2026)
-- 📄 [View Technical Report](reports/03-06-2026)
+- 🧱 [View 3D Model]({{ site.baseurl }}/3d_models/03-06-2026/)
+- 🌊 [View Simulations]({{ site.baseurl }}/simulations/03-06-2026/)
+- 📄 [View Technical Report]({{ site.baseurl }}/reports/03-06-2026/)
 
 ---
 
