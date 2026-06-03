@@ -1,35 +1,30 @@
 
+
 ---
 layout: default
-title: Report – 03-06-2026 Project
+title: Report – 2025 F1 Concept Car Development (03-06-2026)
 permalink: /reports/03-06-2026/
 ---
 
-# 📄 Technical Report – Project Title
+# 📄 Technical Report – 2025 Formula 1 Concept Car
 
-This report documents the engineering design, analysis, and validation of the project.
+This document presents the **full engineering report** for the development of a 2025 Formula 1 concept car.
+
+The report covers the complete workflow, including CAD modelling, CFD analysis, and iterative aerodynamic optimisation.
 
 ---
 
-## 📥 Download Report
+## 📄 View Report
 
 <div class="content-block">
-  <a href="{{ site.baseurl }}/reports/03-06-2026/report.pdf" download>
-    📄 Download Full Report
-  </a>
+  <ul>
+    <li>
+      <a href="{{ site.baseurl }}/reports/03-06-2026/Portfolio Project Report.pdf" target="_blank">
+        📑 Open Technical Report
+      </a>
+    </li>
+  </ul>
 </div>
 
 ---
 
-## 👀 Preview
-
-<iframe src="{{ site.baseurl }}/reports/03-06-2026/report.pdf" width="100%" height="600px"></iframe>
-
----
-
-## 📌 Summary
-
-- Covers design methodology and validation  
-- Includes simulation results and discussion  
-- Developed as part of engineering portfolio work  
-``
