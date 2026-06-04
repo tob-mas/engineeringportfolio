@@ -32,4 +32,6 @@ permalink: /reports/18.06.25/
   <p>The report serves as a foundation for further CFD-based simulation and performance validation.</p>
 </div>
 
+---
 
+[⬅ Back to Reports]({{ site.baseurl }}/reports/)
