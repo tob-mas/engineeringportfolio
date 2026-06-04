@@ -48,3 +48,7 @@ The model was created as part of a broader aerodynamic development study, focusi
     </li>
   </ul>
 </div>
+
+---
+
+[⬅ Back to 3D Models]({{ site.baseurl }}/3d_models/)
