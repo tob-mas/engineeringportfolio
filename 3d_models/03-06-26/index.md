@@ -6,6 +6,8 @@ permalink: /3d_models/03-06-26/
 
 # 🏎️ 3D Model – 2025 Formula 1 Concept Car
 
+**Date:** 03 June 2026
+
 This project presents a **3D CAD model of a 2025 Formula 1 concept car**, developed in **SolidWorks**.
 
 The model was created as part of a broader aerodynamic development study, focusing on full vehicle integration and simulation-ready geometry.
