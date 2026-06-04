@@ -32,6 +32,7 @@ This section presents simulation projects related to **structural**, **thermal**
     CFD analysis of a full vehicle concept developed through iterative optimisation, evaluating aerodynamic performance across multiple design stages.
   </p>
 </div>
+
 ---
 
 [⬅ Back to Home]({{ site.baseurl }}/)
