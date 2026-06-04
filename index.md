@@ -11,25 +11,30 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 
 ## 📁 Portfolio Sections
 
+
 ### 🔹 3D Models
 
 CAD and engineering design files created in SolidWorks and other modeling tools.  
 ➡️ [View 3D Models](3d_models)
+
 
 ### 🔹 Simulations
 
 Results and setups from mechanical, fluid, and structural simulations.  
 ➡️ [View Simulations](simulations)
 
+
 ### 🔹 Technical Reports & Research
 
 Formal documentation of engineering analyses and projects.  
 ➡️ [View Reports](reports)
 
+
 ### 🔹 University Projects
 
 Engineering projects completed as part of university coursework, organised by academic year.  
 ➡️ [View University Projects](university_projects)
+
 
 ### 🔹 Certifications
 
@@ -37,6 +42,7 @@ Professional and technical certifications across CAD, CFD, programming, and prof
 ➡️ [View Certifications](certifications)
 
 ---
+
 
 ## 🌟 Highlighted Project
 
@@ -55,6 +61,7 @@ The project integrates:
 
 ---
 
+
 ## 🏁 Formula Student
 
 Work related to Formula Student, including design, analysis, and contributions to team-based engineering projects.
@@ -62,6 +69,7 @@ Work related to Formula Student, including design, analysis, and contributions t
 - 🚧 Projects and contributions coming soon
 
 ---
+
 
 ## 📄 About Me
 
