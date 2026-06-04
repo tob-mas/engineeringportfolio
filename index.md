@@ -5,6 +5,8 @@ title: Home
 
 # 👷‍♂️ Engineering Portfolio
 
+**Toby Mason** — Mechanical Engineering Degree Apprentice | SolidWorks (CSWP) | CFD | FEA
+
 Welcome to my engineering portfolio. This website showcases my work in **3D Modeling**, **Simulations**, **Technical Reports & Research**, **University Projects**, and **Certifications** — developed throughout my academic and professional journey.
 
 ---
