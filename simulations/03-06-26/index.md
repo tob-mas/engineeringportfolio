@@ -42,3 +42,5 @@ The simulations follow a structured development approach, progressing from an in
 - **Optimisation 2:** Balanced downforce and drag, improved rear flow attachment
 
 ---
+
+[⬅ Back to Simulations]({{ site.baseurl }}/simulations/)
