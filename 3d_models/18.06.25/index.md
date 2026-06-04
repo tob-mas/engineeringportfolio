@@ -40,4 +40,6 @@ The goal of this design study is to evaluate and compare aerodynamic characteris
   </ul>
 </div>
 
+---
 
+[⬅ Back to 3D Models]({{ site.baseurl }}/3d_models/)
