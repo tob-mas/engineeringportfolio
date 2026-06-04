@@ -27,3 +27,6 @@ permalink: /simulations/18.06.25/
   <p>The ZIP file includes simulation screenshots and post-processing plots.</p>
 </div>
 
+---
+
+[⬅ Back to Simulations]({{ site.baseurl }}/simulations/)
