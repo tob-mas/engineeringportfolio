@@ -27,5 +27,6 @@ permalink: /reports/10-06-25/
   <p>This report integrates technical analysis with practical design implementation.</p>
 </div>
 
+---
 
-
+[⬅ Back to Reports]({{ site.baseurl }}/reports/)
