@@ -6,6 +6,8 @@ permalink: /3d_models/10-06-25/
 
 # ✈️ Model 1 – 3D Model of a Plane
 
+**Date:** 10 June 2025
+
 This model includes both **STL** and **STEP** formats.
 
 ---
