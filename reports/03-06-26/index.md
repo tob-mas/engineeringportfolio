@@ -1,5 +1,3 @@
-
-
 ---
 layout: default
 title: Report – 2025 F1 Concept Car Development (03-06-2026)
