@@ -70,7 +70,7 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 
 <img src="{{ site.baseurl }}/3d_models/03-06-26/front_three_quarter.jpg" alt="2025 F1 Concept Car" style="width:100%; max-width:450px; border-radius:8px; margin:1rem auto; display:block;">
 
-<p>03 June 2026 · SolidWorks · Airshaper</strong>.</p>
+<p><strong>03 June 2026 · SolidWorks · Airshaper</strong></p>
 
 <p>A full vehicle aerodynamic development study focused on <strong>drag reduction, downforce optimisation, and flow control</strong>.</p>
 
@@ -81,11 +81,11 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
     <li>Iterative optimisation across multiple design stages</li>
   </ul>
 
-  <div class="project-links">
-    {{ site.baseurl }}/3d_models/03-06-26/🧱 View 3D Model</a>
-    {{ site.baseurl }}/simulations/03-06-26/🌊 View Simulations</a>
-    {{ site.baseurl }}/reports/03-06-26/📄 View Technical Report</a>
-  </div>
+<div class="project-links">
+  <a href="{{ site.baseurl }}/3d_models/03-06-26/">🧱 View 3D Model</a>
+  <a href="{{ site.baseurl }}/simulations/03-06-26/">🌊 View Simulations</a>
+  <a href="{{ site.baseurl }}/reports/03-06-26/">📄 View Technical Report</a>
+</div>
 
 </div>
 
