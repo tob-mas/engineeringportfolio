@@ -84,6 +84,44 @@ Work related to Formula Student, including design, analysis, and contributions t
 
 ---
 
+## 📈 Project Progression
+
+<div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-date">June 2025</div>
+    <div class="timeline-title">Aircraft Design Study</div>
+    <div class="timeline-desc">First CAD and CFD project — 3D modelling and airflow simulation of an aircraft in SolidWorks.</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">June 2025</div>
+    <div class="timeline-title">F1 2026 Front Wing Concepts</div>
+    <div class="timeline-desc">First motorsport-focused project — designed and compared three front wing concepts against FIA regulations using CFD and FEA.</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">November 2025</div>
+    <div class="timeline-title">Composite Materials for F1 Applications</div>
+    <div class="timeline-desc">Materials science study — proposed M40J/Epoxy composite for an F1 front wing, validated through theoretical analysis, experimental 3-point bend testing, and FEA simulation.</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025 – 2026</div>
+    <div class="timeline-title">Formula E Space Frame Chassis</div>
+    <div class="timeline-desc">Full engineering design project — PDS, concept evaluation, truss analysis, SolidWorks CAD modelling, and physical balsa wood prototype build.</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">June 2026</div>
+    <div class="timeline-title">🏎️ 2025 Formula 1 Concept Car Development</div>
+    <div class="timeline-desc">Full vehicle aerodynamic development — parametric CAD modelling in SolidWorks with iterative CFD optimisation using Airshaper. Drag reduction, downforce balancing, and flow structure control.</div>
+  </div>
+
+</div>
+
+---
+
 ## 📄 About Me
 
 I'm a Mechanical Engineer Degree Apprentice, balancing hands-on engineering work with university studies in mechanical engineering. I'm passionate about precision design, analysis, and driving innovation in every project I take on. I regularly use SolidWorks and CATIA for CAD, along with SolidWorks Simulation and Ansys CFD to bring ideas to life through detailed analysis.
