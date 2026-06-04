@@ -11,6 +11,16 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 
 ---
 
+## 🛠️ Skills & Tools
+
+- **CAD:** SolidWorks (CSWP Certified), CATIA
+- **Simulation:** SolidWorks Simulation, Ansys CFD, Airshaper
+- **Programming:** MATLAB
+- **Methods:** Six Sigma White Belt, Design for Six Sigma (DfSS) Yelloe Belt
+- **Professional Bodies:** IET, IMechE
+
+---
+
 ## 📁 Portfolio Sections
 
 
