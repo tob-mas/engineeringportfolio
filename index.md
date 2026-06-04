@@ -49,9 +49,9 @@ The project integrates:
 - CFD-driven design validation and refinement using **Airshaper**
 - Iterative optimisation across multiple design stages
 
-- 🧱 [View 3D Model]({{ site.baseurl }}/3d_models/03-06-26/)
-- 🌊 [View Simulations]({{ site.baseurl }}/simulations/03-06-26/)
-- 📄 [View Technical Report]({{ site.baseurl }}/reports/03-06-26/)
+  🧱 [View 3D Model]({{ site.baseurl }}/3d_models/03-06-26/)
+  🌊 [View Simulations]({{ site.baseurl }}/simulations/03-06-26/)
+  📄 [View Technical Report]({{ site.baseurl }}/reports/03-06-26/)
 
 ---
 
