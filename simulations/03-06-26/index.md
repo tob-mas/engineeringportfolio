@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Simulation – 2025 F1 Aerodynamic Study (03-06-2026)
-permalink: /simulations/03-06-2026/
+title: Simulation - 2025 F1 Aerodynamic Study
 ---
 
 # 🌊 CFD Simulations – 2025 Formula 1 Concept Car
