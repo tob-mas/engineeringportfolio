@@ -21,4 +21,6 @@ permalink: /simulations/10-06-25/
   <p>This simulation was conducted using <strong>SolidWorks Flow Simulation package</strong>, focusing on lift, drag, and vortex formation. Boundary conditions and turbulence models were chosen to reflect realistic subsonic conditions.</p>
 </div>
 
+---
 
+[⬅ Back to Simulations]({{ site.baseurl }}/simulations/)
