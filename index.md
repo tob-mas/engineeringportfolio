@@ -64,26 +64,30 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 
 ## 🌟 Highlighted Project
 
-### 🏎️ 2025 Formula 1 Concept Car Development
+<div class="highlight-card">
 
----
+<h3>🏎️ 2025 Formula 1 Concept Car Development</h3>
 
 <img src="{{ site.baseurl }}/3d_models/03-06-26/front_three_quarter.jpg" alt="2025 F1 Concept Car" style="width:100%; max-width:450px; border-radius:8px; margin:1rem auto; display:block;">
 
----
+<p>03 June 2026 · SolidWorks · Airshaper</strong>.</p>
 
-03 June 2026 · SolidWorks · Airshaper
+<p>A full vehicle aerodynamic development study focused on <strong>drag reduction, downforce optimisation, and flow control</strong>.</p>
 
-A full vehicle aerodynamic development study focused on **drag reduction, downforce optimisation, and flow control**.
+  <p>The project integrates:</p>
+  <ul>
+    <li>Parametric CAD modelling in <strong>SolidWorks</strong></li>
+    <li>CFD-driven design validation and refinement using <strong>Airshaper</strong></li>
+    <li>Iterative optimisation across multiple design stages</li>
+  </ul>
 
-The project integrates:
-- Parametric CAD modelling in **SolidWorks**
-- CFD-driven design validation and refinement using **Airshaper**
-- Iterative optimisation across multiple design stages
+  <div class="project-links">
+    {{ site.baseurl }}/3d_models/03-06-26/🧱 View 3D Model</a>
+    {{ site.baseurl }}/simulations/03-06-26/🌊 View Simulations</a>
+    {{ site.baseurl }}/reports/03-06-26/📄 View Technical Report</a>
+  </div>
 
-  🧱 [View 3D Model]({{ site.baseurl }}/3d_models/03-06-26/)
-  🌊 [View Simulations]({{ site.baseurl }}/simulations/03-06-26/)
-  📄 [View Technical Report]({{ site.baseurl }}/reports/03-06-26/)
+</div>
 
 ---
 
