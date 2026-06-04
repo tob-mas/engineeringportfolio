@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Certifications
@@ -16,10 +15,9 @@ SolidWorks certifications demonstrating progressive competency from associate to
 
 | Certification | Issuing Body | Certificate |
 |---|---|---|
-| Certified SolidWorks Associate (CSWA) | Dassault Systèmes | [📄 View](cad/CSWA%20Certificate.pdf) |
-| Certified SolidWorks Associate — Simulation (CSWA-S) | Dassault Systèmes | [📄 View](cad/CSWA-S%20Certificate.pdf) |
-| Certified SolidWorks Professional (CSWP) | Dassault Systèmes | [📄 View](cad/CSWP%20Certificate.pdf) |
-| Certified SolidWorks Professional Advanced — Drawing Tools (CSWPA-DT) | Dassault Systèmes | [📄 View](cad/CSWPA-DT%20Certificate.pdf) |
+| Certified SolidWorks Associate (CSWA) | Dassault Systèmes | [View](cad/CSWA%ed SolidWorks Associate — Simulation (CSWA-S) | Dassault Systèmes | cad/CSWA-S%20Certificate.pdf |
+| Certified SolidWorks Professional (CSWP) | Dassault Systèmes | [View](cad/CSWP%20Certificate.pdf) |
+| Certified SolidWorks Professional Advanced — Drawing Tools (CSWPA-DT) | Dassault Systèmes | [View](cad/CSWPA-DT%20Certificate.pdf) |
 
 ---
 
@@ -39,7 +37,7 @@ Programming and computational tool certifications.
 
 | Certification | Issuing Body | Certificate |
 |---|---|---|
-| MATLAB Onramp | MathWorks | [📄 View](programming/MATLAB%20onramp%20certificate.pdf) |
+| MATLAB Onramp | MathWorks | [View](programming/MATLAB%20onramp%20certificate.pdf) |
 
 ---
 
@@ -49,9 +47,8 @@ Cross-disciplinary certifications covering design methodology, process improveme
 
 | Certification | Issuing Body | Certificate |
 |---|---|---|
-| Six Sigma White Belt Certification | 6sigmastudyguide.com | [📄 View](professional_development/Official_Certification_Issued_Six_Sigma_White_Belt_Certification.pdf) |
-| Design for Six Sigma (DfSS) Yellow Belt | — | [📄 View](professional_development/DfSS%20Yellow%20Belt%20Exam%20Certificate.pdf) |
-| F1 Design CFD Training | F1 Design | [📄 View](professional_development/f1_design_cfd_training_certificate.jpeg) |
+| Six Sigma White Belt Certification | Council for Six Sigma Certification (C.S.S.C) | [View](professional_development/Official_Certification_Issued_Six_Sigma_White_Belt_Exam%20Certificate.pdf |
+| F1 Design CFD Training | LearnSolidworks.com | [View](professional_development/f1_design_cfd_training_certificate.jpeg) |
 
 > **F1 Design CFD Training** — A hands-on training programme covering SolidWorks CAD modelling (solid bodies and surfaces) and a CFD workflow using Airshaper. This training formed the basis of the [2025 Formula 1 Concept Car Development]({{ site.baseurl }}/3d_models/03-06-26/) highlighted project in this portfolio.
 
