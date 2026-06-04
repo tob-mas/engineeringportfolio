@@ -11,47 +11,54 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 
 ---
 
-## 🛠️ Skills & Tools
+# 🛠️ Skills & Tools
 
-- **CAD:** SolidWorks (CSWP Certified), CATIA
-- **Simulation:** SolidWorks Simulation, Ansys CFD, Airshaper
-- **Programming:** MATLAB
-- **Methods:** Six Sigma White Belt, Design for Six Sigma (DfSS) Yelloe Belt
-- **Professional Bodies:** IET, IMechE
+<div class="skill-tags">
+  <span class="skill-tag">SolidWorks (CSWP)</span>
+  <span class="skill-tag">CATIA</span>
+  <span class="skill-tag">SolidWorks Simulation</span>
+  <span class="skill-tag">Ansys CFD</span>
+  <span class="skill-tag">Airshaper</span>
+  <span class="skill-tag">MATLAB</span>
+  <span class="skill-tag">Six Sigma</span>
+  <span class="skill-tag">DfSS</span>
+  <span class="skill-tag">IET Member</span>
+  <span class="skill-tag">IMechE Member</span>
+</div>
 
 ---
 
 ## 📁 Portfolio Sections
 
+<div class="section-card">
+  <h3>🔹 3D Models</h3>
+  <p>CAD and engineering design files created in SolidWorks and other modeling tools.</p>
+  <p>➡️ {{ site.baseurl }}/3d_models/View 3D Models</a></p>
+</div>
 
-### 🔹 3D Models
+<div class="section-card">
+  <h3>🔹 Simulations</h3>
+  <p>Results and setups from mechanical, fluid, and structural simulations.</p>
+  <p>➡️ {{ site.baseurl }}/simulations/View Simulations</a></p>
+</div>
 
-CAD and engineering design files created in SolidWorks and other modeling tools.  
-➡️ [View 3D Models](3d_models)
+<div class="section-card">
+  <h3>🔹 Technical Reports & Research</h3>
+  <p>Formal documentation of engineering analyses and projects.</p>
+  <p>➡️ {{ site.baseurl }}/reports/View Reports</a></p>
+</div>
 
+<div class="section-card">
+  <h3>🔹 University Projects</h3>
+  <p>Engineering projects completed as part of university coursework, organised by academic year.</p>
+  <p>➡️ {{ site.baseurl }}/university_projects/View University Projects</a></p>
+</div>
 
-### 🔹 Simulations
-
-Results and setups from mechanical, fluid, and structural simulations.  
-➡️ [View Simulations](simulations)
-
-
-### 🔹 Technical Reports & Research
-
-Formal documentation of engineering analyses and projects.  
-➡️ [View Reports](reports)
-
-
-### 🔹 University Projects
-
-Engineering projects completed as part of university coursework, organised by academic year.  
-➡️ [View University Projects](university_projects)
-
-
-### 🔹 Certifications
-
-Professional and technical certifications across CAD, CFD, programming, and professional development.  
-➡️ [View Certifications](certifications)
+<div class="section-card">
+  <h3>🔹 Certifications</h3>
+  <p>Professional and technical certifications across CAD, CFD, programming, and professional development.</p>
+  <p>➡️ {{ site.baseurl }}/certifications/View Certifications</a></p>
+</div>
 
 ---
 
