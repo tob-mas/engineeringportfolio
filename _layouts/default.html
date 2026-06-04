@@ -251,7 +251,6 @@
         text-decoration: underline;
       }
 
-      
 /* Timeline */
 .timeline {
   position: relative;
@@ -306,7 +305,66 @@
   color: var(--text);
   opacity: 0.85;
 }
+
       
+/* Timeline responsive */
+@media (max-width: 600px) {
+  .timeline {
+    padding-left: 1.5rem;
+  }
+
+  .timeline::before {
+    left: 4px;
+    width: 2px;
+  }
+
+  .timeline-item {
+    padding-left: 0.75rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .timeline-item::before {
+    left: -1.4rem;
+    width: 10px;
+    height: 10px;
+  }
+
+  .timeline-date {
+    font-size: 0.8rem;
+  }
+
+  .timeline-title {
+    font-size: 0.95rem;
+  }
+
+  .timeline-desc {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .timeline {
+    padding-left: 1.2rem;
+  }
+
+  .timeline-item::before {
+    left: -1.15rem;
+    width: 8px;
+    height: 8px;
+  }
+
+  .timeline-date {
+    font-size: 0.75rem;
+  }
+
+  .timeline-title {
+    font-size: 0.85rem;
+  }
+
+  .timeline-desc {
+    font-size: 0.75rem;
+  }
+}
     </style>
   </head>
   <body>
