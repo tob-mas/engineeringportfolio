@@ -141,13 +141,13 @@
         color: var(--accent);
       }
 
-      hr {
-        margin: 2rem 0;
-        border: none;
-        height: 1px;
-        background-color: #ddd;
-      }
-
+hr {
+  margin: 2.5rem auto;
+  border: none;
+  height: 2px;
+  width: 60%;
+  background: linear-gradient(to right, transparent, var(--accent), transparent);
+}
       .fade-in {
         opacity: 0;
         transform: translateY(20px);
@@ -361,9 +361,50 @@
     font-size: 0.85rem;
   }
 
-  .timeline-desc {
+.timeline-desc {
     font-size: 0.75rem;
   }
+}
+/* Section cards */
+.section-card {
+  border-left: 4px solid var(--accent);
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.2rem;
+  background: rgba(79, 154, 255, 0.05);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-card:hover {
+  transform: translateX(6px);
+  box-shadow: 0 2px 8px rgba(79, 154, 255, 0.15);
+}
+
+.section-card h3 {
+  margin-bottom: 0.3rem;
+}
+
+.section-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+  
+/* Skill tags */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skill-tag {
+  background: rgba(79, 154, 255, 0.1);
+  color: var(--accent);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid rgba(79, 154, 255, 0.3);
 }
     </style>
   </head>
@@ -417,7 +458,7 @@
         </div>
         <div>
           <h4>Connect</h4>
-          <a href="https://github.com/tob-mas" target="_blank">GitHub</a>
+          <a href="https://github.com/tob-mas" target="_blank">GitHub</a><br />
           <a href="https://www.linkedin.com/in/toby-mason-627013273" target="_blank">LinkedIn</a>
         </div>
       </div>
@@ -504,14 +545,3 @@
     </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
