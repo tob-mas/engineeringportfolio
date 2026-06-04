@@ -13,7 +13,7 @@ University projects completed during Year 2 of my Mechanical Engineering degree,
 
 A full engineering design project to develop a Formula E space frame chassis, following the complete design process from specification through to a physical prototype.
 
-The project covered the full product development cycle including a Product Design Specification (PDS), Gantt chart, concept evaluation, simple truss analysis, and design communication. The final design was modelled in **SolidWorks** and physically constructed from **balsa wood**.
+The project covered the full product development cycle including a Product Design Specification (PDS), Gantt chart, concept evaluation, simple truss analysis, and design communication. The final design was modelled in **SolidWorks** and physically constructed from balsa wood, this was then impact force tested to ensure the chassis met design requirements.
 
 ### Key Skills
 - SolidWorks CAD modelling
