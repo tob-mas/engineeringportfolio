@@ -15,9 +15,10 @@ SolidWorks certifications demonstrating progressive competency from associate to
 
 | Certification | Issuing Body | Certificate |
 |---|---|---|
-| Certified SolidWorks Associate (CSWA) | Dassault Systèmes | [View](cad/CSWA%ed SolidWorks Associate — Simulation (CSWA-S) | Dassault Systèmes | cad/CSWA-S%20Certificate.pdf |
-| Certified SolidWorks Professional (CSWP) | Dassault Systèmes | [View](cad/CSWP%20Certificate.pdf) |
-| Certified SolidWorks Professional Advanced — Drawing Tools (CSWPA-DT) | Dassault Systèmes | [View](cad/CSWPA-DT%20Certificate.pdf) |
+| Certified SolidWorks Associate (CSWA) | Dassault Systemes | [View](cad/CSWA%20Certificate.pdf) |
+| Certified SolidWorks Associate - Simulation (CSWA-S) | Dassault Systemes | [View](cad/CSWA-S%20Certificate.pdf) |
+| Certified SolidWorks Professional (CSWP) | Dassault Systemes | [View](cad/CSWP%20Certificate.pdf) |
+| Certified SolidWorks Professional Advanced - Drawing Tools (CSWPA-DT) | Dassault Systemes | [View](cad/CSWPA-DT%20Certificate.pdf) |
 
 ---
 
@@ -25,9 +26,9 @@ SolidWorks certifications demonstrating progressive competency from associate to
 
 Computational Fluid Dynamics certifications and training.
 
-| Certification | Issuing Body | Certificate |
+| Certification | Issuing Body | Status |
 |---|---|---|
-| 🚧 CFD certification currently in progress | — | — |
+| CFD certification currently in progress | - | In Progress |
 
 ---
 
@@ -47,12 +48,13 @@ Cross-disciplinary certifications covering design methodology, process improveme
 
 | Certification | Issuing Body | Certificate |
 |---|---|---|
-| Six Sigma White Belt Certification | Council for Six Sigma Certification (C.S.S.C) | [View](professional_development/Official_Certification_Issued_Six_Sigma_White_Belt_Exam%20Certificate.pdf |
+| Six Sigma White Belt | Council for Six Sigma Certification (C.S.S.C) | [View](professional_development/Official_Certification_Issued_lt%20Exam%20Certificate.pdf |
 | F1 Design CFD Training | LearnSolidworks.com | [View](professional_development/f1_design_cfd_training_certificate.jpeg) |
 
-> **F1 Design CFD Training** — A hands-on training programme covering SolidWorks CAD modelling (solid bodies and surfaces) and a CFD workflow using Airshaper. This training formed the basis of the [2025 Formula 1 Concept Car Development]({{ site.baseurl }}/3d_models/03-06-26/) highlighted project in this portfolio.
+**F1 Design CFD Training** - A hands-on training programme covering SolidWorks CAD modelling (solid bodies and surfaces) and a CFD workflow using Airshaper. This training formed the basis of the [2025 Formula 1 Concept Car Development]({{ site.baseurl }}/3d_models/03-06-26/) highlighted project in this portfolio.
 
 ---
 
-[⬅ Back to Home]({{ site.baseurl }}/)
+[Back to Home]({{ site.baseurl }}/)
+
 
