@@ -55,10 +55,13 @@ Professional and technical certifications across CAD, CFD, programming, and prof
 
 ---
 
-
 ## 🌟 Highlighted Project
 
 ### 🏎️ 2025 Formula 1 Concept Car Development
+
+![2025 F1 Concept Car]({{ site.baseurl }}/3d_models/03-06-26/front_three_quarter.jpg)
+
+03 June 2026 · SolidWorks · Airshaper
 
 A full vehicle aerodynamic development study focused on **drag reduction, downforce optimisation, and flow control**.
 
@@ -73,7 +76,6 @@ The project integrates:
 
 ---
 
-
 ## 🏁 Formula Student
 
 Work related to Formula Student, including design, analysis, and contributions to team-based engineering projects.
@@ -82,7 +84,6 @@ Work related to Formula Student, including design, analysis, and contributions t
 
 ---
 
-
 ## 📄 About Me
 
 I'm a Mechanical Engineer Degree Apprentice, balancing hands-on engineering work with university studies in mechanical engineering. I'm passionate about precision design, analysis, and driving innovation in every project I take on. I regularly use SolidWorks and CATIA for CAD, along with SolidWorks Simulation and Ansys CFD to bring ideas to life through detailed analysis.
@@ -90,8 +91,3 @@ I'm a Mechanical Engineer Degree Apprentice, balancing hands-on engineering work
 My work reflects a strong commitment to quality and continuous learning, always striving to improve. Being part of the Institution of Engineering and Technology (IET) and the Institution of Mechanical Engineers (IMechE) helps me stay connected with the engineering community and up to date with the latest industry developments.
 
 ---
-
-
-
-
-
