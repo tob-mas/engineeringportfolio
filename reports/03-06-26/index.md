@@ -32,6 +32,8 @@ This report presents a full aerodynamic development study of a 2025 Formula 1 co
 - Parametric CAD modelling in SolidWorks
 - CFD validation and refinement using AirShaper
 - Iterative optimisation targeting drag reduction and downforce balance
-- Flow structure analysis including wake control and pressure distributio
+- Flow structure analysis including wake control and pressure distribution
 
 ---
+
+[⬅ Back to Reports]({{ site.baseurl }}/reports/)
