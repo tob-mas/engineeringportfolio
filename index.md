@@ -33,31 +33,31 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 <div class="section-card">
   <h3>🔹 3D Models</h3>
   <p>CAD and engineering design files created in SolidWorks and other modeling tools.</p>
-  <p>➡️ {{ site.baseurl }}/3d_models/View 3D Models</a></p>
+  <p>➡️ <a href="{{ site.baseurl }}/3d_models/">View 3D Models</a></p>
 </div>
 
 <div class="section-card">
   <h3>🔹 Simulations</h3>
   <p>Results and setups from mechanical, fluid, and structural simulations.</p>
-  <p>➡️ {{ site.baseurl }}/simulations/View Simulations</a></p>
+  <p>➡️ <a href="{{ site.baseurl }}/simulations/">View Simulations</a></p>
 </div>
 
 <div class="section-card">
   <h3>🔹 Technical Reports & Research</h3>
   <p>Formal documentation of engineering analyses and projects.</p>
-  <p>➡️ {{ site.baseurl }}/reports/View Reports</a></p>
+  <p>➡️ <a href="{{ site.baseurl }}/reports/">View Reports</a></p>
 </div>
 
 <div class="section-card">
   <h3>🔹 University Projects</h3>
   <p>Engineering projects completed as part of university coursework, organised by academic year.</p>
-  <p>➡️ {{ site.baseurl }}/university_projects/View University Projects</a></p>
+  <p>➡️ <a href="{{ site.baseurl }}/university_projects/">View University Projects</a></p>
 </div>
 
 <div class="section-card">
   <h3>🔹 Certifications</h3>
   <p>Professional and technical certifications across CAD, CFD, programming, and professional development.</p>
-  <p>➡️ {{ site.baseurl }}/certifications/View Certifications</a></p>
+  <p>➡️ <a href="{{ site.baseurl }}/certifications/">View Certifications</a></p>
 </div>
 
 ---
