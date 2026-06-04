@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Year 2 Projects
