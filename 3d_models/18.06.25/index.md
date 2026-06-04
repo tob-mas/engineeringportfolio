@@ -6,6 +6,8 @@ permalink: /3d_models/18.06.25/
 
 # 🏎️ Model 2 – F1 2026 Front Wing Designs
 
+**Date:** 18 June 2025
+
 This project showcases three front wing concepts and an optimised design created for the **F1 2026** technical regulations. Each model was developed in **SolidWorks** based on **FIA guidelines** and represents a unique aerodynamic approach.
 
 The goal of this design study is to evaluate and compare aerodynamic characteristics such as airflow behavior and surface design efficiency.
