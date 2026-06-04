@@ -20,3 +20,7 @@ The assembly was built to evaluate component integration, aerodynamic efficiency
     <li><a href="{{ site.baseurl }}/3d_models/28-07-25/My%202026%20F1%20Car.STEP" download>🧩 Download STEP File</a></li>
   </ul>
 </div>
+
+---
+
+[⬅ Back to 3D Models]({{ site.baseurl }}/3d_models/)
