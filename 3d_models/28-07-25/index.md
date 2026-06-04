@@ -6,6 +6,8 @@ permalink: /3d_models/28-07-25/
 
 # 🏎️ Model 3 – Full 2026 F1 Car Assembly
 
+**Date:** 28 July 2025
+
 This project presents a complete 3D assembly of a **Formula 1 car for the 2026 season**, developed in **SolidWorks**. The model includes all major systems—chassis, aerodynamics to simulate a realistic and regulation-compliant design.
 
 The assembly was built to evaluate component integration, aerodynamic efficiency, and design feasibility under the FIA's anticipated 2026 regulations.
