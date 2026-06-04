@@ -59,7 +59,11 @@ Professional and technical certifications across CAD, CFD, programming, and prof
 
 ### 🏎️ 2025 Formula 1 Concept Car Development
 
+---
+
 <img src="{{ site.baseurl }}/3d_models/03-06-26/front_three_quarter.jpg" alt="2025 F1 Concept Car" style="width:100%; max-width:450px; border-radius:8px; margin:1rem auto; display:block;">
+
+---
 
 03 June 2026 · SolidWorks · Airshaper
 
@@ -90,31 +94,25 @@ Work related to Formula Student, including design, analysis, and contributions t
 
   <div class="timeline-item">
     <div class="timeline-date">June 2025</div>
-    <div class="timeline-title">Aircraft Design Study</div>
-    <div class="timeline-desc">First CAD and CFD project — 3D modelling and airflow simulation of an aircraft in SolidWorks.</div>
+    <div class="timeline-title">F1 2026 Front Wing Concepts</div>
+    <div class="timeline-desc">Designed and compared three front wing concepts against FIA 2026 regulations using SolidWorks, CFD, and FEA to evaluate aerodynamic performance and structural compliance.</div>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-date">June 2025</div>
-    <div class="timeline-title">F1 2026 Front Wing Concepts</div>
-    <div class="timeline-desc">First motorsport-focused project — designed and compared three front wing concepts against FIA regulations using CFD and FEA.</div>
+    <div class="timeline-date">November 2025</div>
+    <div class="timeline-title">Formula E Space Frame Chassis</div>
+    <div class="timeline-desc">Full engineering design project: PDS, concept evaluation, truss analysis, SolidWorks CAD modelling, physical balsa wood prototype build and impact force testing.</div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-date">November 2025</div>
     <div class="timeline-title">Composite Materials for F1 Applications</div>
-    <div class="timeline-desc">Materials science study — proposed M40J/Epoxy composite for an F1 front wing, validated through theoretical analysis, experimental 3-point bend testing, and FEA simulation.</div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025 – 2026</div>
-    <div class="timeline-title">Formula E Space Frame Chassis</div>
-    <div class="timeline-desc">Full engineering design project — PDS, concept evaluation, truss analysis, SolidWorks CAD modelling, and physical balsa wood prototype build.</div>
+    <div class="timeline-desc">Proposed an M40J/Epoxy composite for an F1 front wing — combining theoretical analysis, experimental 3-point bend testing, and FEA simulation to validate material selection.</div>
   </div>
 
   <div class="timeline-item">
     <div class="timeline-date">June 2026</div>
-    <div class="timeline-title">🏎️ 2025 Formula 1 Concept Car Development</div>
+    <div class="timeline-title">2025 Formula 1 Concept Car Development</div>
     <div class="timeline-desc">Full vehicle aerodynamic development — parametric CAD modelling in SolidWorks with iterative CFD optimisation using Airshaper. Drag reduction, downforce balancing, and flow structure control.</div>
   </div>
 
