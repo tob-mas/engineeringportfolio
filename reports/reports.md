@@ -36,3 +36,4 @@ Formal documentation developed for academic coursework, professional research, a
 
 ---
 
+[⬅ Back to Home]({{ site.baseurl }}/)
