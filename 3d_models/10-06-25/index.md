@@ -19,7 +19,6 @@ This model includes both **STL** and **STEP** formats.
   </ul>
 </div>
 
+---
 
-
-
-
+[⬅ Back to 3D Models]({{ site.baseurl }}/3d_models/)
