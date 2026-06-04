@@ -27,7 +27,7 @@ The project covered the full product development cycle including a Product Desig
 |---|---|
 | 📄 [Design Portfolio](applied_design/spaceframe_design_portfolio.7z) | Full design process portfolio (PDS, Gantt chart, concept evaluation, truss analysis, design communication) |
 | 📐 [3D Model (STEP)](applied_design/space_frame_chassis_design.STEP) | SolidWorks CAD model of the space frame chassis |
-| 🖼️ [3D Model Screenshot](applied_design/picture_of_3d_model.jpg) | Render of the SolidWorks model |
+| 🖼️ [3D Model Screenshot](applied_design/picture_of%20_3d_model.jpg) | Render of the SolidWorks model |
 | 🖼️ [Built Chassis Photo](applied_design/picture_of_built_chassis.jpeg) | Final balsa wood prototype |
 
 ---
