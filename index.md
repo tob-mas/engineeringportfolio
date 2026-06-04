@@ -59,7 +59,7 @@ Professional and technical certifications across CAD, CFD, programming, and prof
 
 ### 🏎️ 2025 Formula 1 Concept Car Development
 
-![2025 F1 Concept Car]({{ site.baseurl }}/3d_models/03-06-26/front_three_quarter.jpg)
+<img src="{{ site.baseurl }}/3d_models/03-06-26/front_three_quarter.jpg" alt="2025 F1 Concept Car" style="width:100%; max-width:600px; border-radius:8px; margin:1rem 0;">
 
 03 June 2026 · SolidWorks · Airshaper
 
