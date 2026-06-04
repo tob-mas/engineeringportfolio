@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Simulation – 2025 F1 Aerodynamic Study (03-06-2026)
