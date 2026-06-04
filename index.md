@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Home
@@ -47,7 +46,7 @@ A full vehicle aerodynamic development study focused on **drag reduction, downfo
 
 The project integrates:
 - Parametric CAD modelling in **SolidWorks**
-- CFD-driven design validation and refinement
+- CFD-driven design validation and refinement using **Airshaper**
 - Iterative optimisation across multiple design stages
 
 - 🧱 [View 3D Model]({{ site.baseurl }}/3d_models/03-06-26/)
@@ -71,6 +70,7 @@ I'm a Mechanical Engineer Degree Apprentice, balancing hands-on engineering work
 My work reflects a strong commitment to quality and continuous learning, always striving to improve. Being part of the Institution of Engineering and Technology (IET) and the Institution of Mechanical Engineers (IMechE) helps me stay connected with the engineering community and up to date with the latest industry developments.
 
 ---
+
 
 
 
