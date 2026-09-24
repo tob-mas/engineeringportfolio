@@ -14,7 +14,7 @@ permalink: /3d_models/24-09-26/
  
 <br>
  
-This project presents a **3D CAD model of a NACA 6412 airfoil**, developed for aerodynamic analysis and simulation.
+This project presents a **3D CAD model of a NACA 6412 airfoil**, developed in **CATIA V5**.
  
 <br>
  
@@ -33,7 +33,7 @@ The geometry provides a controlled and repeatable representation of the airfoil 
 <div class="content-block">
 <ul>
 <li>
-{{ site.baseurl }}/3d_models/24-09-26/NACA_6412_model.png
+<a href="{{ site.baseurl }}/3d4-09-26/NACA_6412_model.png
 📷 NACA 6412 Airfoil Model
 </a>
 </li>
@@ -53,8 +53,7 @@ The geometry provides a controlled and repeatable representation of the airfoil 
 <div class="content-block">
 <ul>
 <li>
-{{ site.baseurl }}/3d_models/24-09-26/NACA_6412_part.stp
-📐 Download NACA 6412 STEP Model
+<a href="{{ site.baseurl }}/3d_models/24-09-26/NACA_6412_part.stp📐 Download NACA 6412 STEP Model
 </a>
 </li>
 </ul>
