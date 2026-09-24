@@ -127,6 +127,12 @@ Work related to Formula Student, including design, analysis, and contributions t
     <div class="timeline-desc">Full vehicle aerodynamic development — parametric CAD modelling in SolidWorks with iterative CFD optimisation using Airshaper. Drag reduction, downforce balancing, and flow structure control.</div>
   </div>
 
+<div class="timeline-item">
+    <div class="timeline-date">September 2026</div>
+    <div class="timeline-title">NACA 6412 Aerofoil Design and CFD Study</div>
+    <div class="timeline-desc">Developed a NACA 6412 aerofoil in CATIA V5 and conducted a structured CFD study using Star CCM+ across multiple angles of attack. The project included mathematical geometry verification, mesh sensitivity assessment, aerodynamic performance analysis, and validation against numerical reference data.</div>
+  </div>
+
 </div>
 
 ---
