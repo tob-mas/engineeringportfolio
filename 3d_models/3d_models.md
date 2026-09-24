@@ -36,7 +36,7 @@ This section includes 3D CAD models and engineering designs created using tools 
 
 <div class="content-block">
   <h3><a href="{{ site.baseurl }}/3d_models/24-09-26">Model 5 – Aerofoil Design on CATIA V5</a></h3>
-  <p>NACA 6412 Aerofoil model developed in <strong>CATIA V5</strong>, developed to support a wider aerodynamic analysis and CFD validation study.</p>
+  <p>NACA 6412 Aerofoil model designed in <strong>CATIA V5</strong>, developed to support a wider aerodynamic analysis and CFD validation study.</p>
   <p>The model is available in <strong>STEP</strong> format.</p>
 </div>
 
