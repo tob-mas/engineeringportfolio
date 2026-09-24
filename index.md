@@ -14,13 +14,13 @@ Welcome to my engineering portfolio. This website showcases my work in **3D Mode
 ## 🛠️ Skills & Tools
 
 <div class="skill-tags">
-  <span class="skill-tag">SolidWorks (CSWP)</span>
-  <span class="skill-tag">CATIA</span>
+  <span class="skill-tag">SolidWorks (CSWPA)</span>
+  <span class="skill-tag">CATIA V5</span>
   <span class="skill-tag">SolidWorks Simulation</span>
-  <span class="skill-tag">Ansys CFD</span>
+  <span class="skill-tag">Ansys Fluent</span>
+  <span class="skill-tag">Star CCM+</span>
   <span class="skill-tag">Airshaper</span>
   <span class="skill-tag">MATLAB</span>
-  <span class="skill-tag">Six Sigma</span>
   <span class="skill-tag">DfSS</span>
   <span class="skill-tag">IET Member</span>
   <span class="skill-tag">IMechE Member</span>
