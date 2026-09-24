@@ -35,7 +35,7 @@ This section presents simulation projects related to **structural**, **thermal**
  
 <div class="content-block">
   <h3>
-   <a href="{{ site.baseurl }}/simulations/03-06-26">
+   <a href="{{ site.baseurl }}/simulations/24-09-26">
     CFD Study – NACA 6412 Aerofoil
   </a>
 </h3>
