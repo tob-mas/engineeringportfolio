@@ -32,6 +32,17 @@ This section presents simulation projects related to **structural**, **thermal**
     CFD analysis of a full vehicle concept developed through iterative optimisation, evaluating aerodynamic performance across multiple design stages.
   </p>
 </div>
+ 
+<div class="content-block">
+  <h3>
+   <a href="{{ site.baseurl }}/simulations/03-06-26">
+    CFD Study – NACA 6412 Aerofoil
+  </a>
+</h3>
+<p>
+  CFD analysis of a NACA 6412 aerofoil across multiple angles of attack, evaluating lift, drag, aerodynamic efficiency, and high-angle flow behaviour.
+  </p>
+</div>
 
 ---
 
