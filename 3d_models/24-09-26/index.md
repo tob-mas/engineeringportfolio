@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Model – 2025 F1 Concept Car
-permalink: /3d_models/03-06-26/
+title: Model – NACA 6412 Airfoil
+permalink: /3d_models/24-09-26/
 ---
 
-# 🏎️ 3D Model – NACA 6412 Airfoil
+# 🛫 3D Model – NACA 6412 Airfoil
 
 **Date:** 24 September 2026
 
