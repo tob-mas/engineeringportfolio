@@ -7,7 +7,7 @@ title: Simulation - NACA 6412 Aerofoil CFD Study
 
 **Date:** 24 September 2026
 
-This section contains **This section presents a **Computational Fluid Dynamics study of a NACA 6412 aerofoil**.
+This section presents a **Computational Fluid Dynamics study of a NACA 6412 aerofoil**.
 
 The simulation evaluates aerodynamic performance across a range of angles of attack, examining lift, drag, aerodynamic efficiency, and flow behaviour around the aerofoil.
 
