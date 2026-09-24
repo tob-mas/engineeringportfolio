@@ -34,6 +34,17 @@ Formal documentation developed for academic coursework, professional research, a
   </p>
 </div>
 
+<div class="content-block">
+  <h3>
+    <a href="{{ site.baseurl }}/reports/24-09-26">
+      NACA 6412 Aerofoil Design and CFD Study
+    </a>
+  </h3>
+  <p>
+    A complete aerodynamic investigation of a NACA 6412 aerofoil, integrating CATIA V5 geometry        development, mathematical verification, CFD analysis, mesh assessment, and aerodynamic performance evaluation.
+  </p>
+</div>
+
 ---
 
 [⬅ Back to Home]({{ site.baseurl }}/)
