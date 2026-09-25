@@ -17,6 +17,7 @@ SolidWorks certifications demonstrating progressive competency from associate to
 - **Certified SolidWorks Associate - Simulation (CSWA-S)** — Dassault Systemes — [View Certificate](cad/CSWA-S%20Certificate.pdf)
 - **Certified SolidWorks Professional (CSWP)** — Dassault Systemes — [View Certificate](cad/CSWP%20Certificate.pdf)
 - **Certified SolidWorks Professional Advanced - Drawing Tools (CSWPA-DT)** — Dassault Systemes — [View Certificate](cad/CSWPA-DT%20Certificate.pdf)
+- **Certified SolidWorks Professional Advanced - Weldements (CSWPA-WD)** — Dassault Systemes — [View Certificate](cad/CSWPA-WD%20Certificate.pdf)
 
 ---
 
