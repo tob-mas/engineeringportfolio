@@ -6,7 +6,7 @@ permalink: /simulations/
 
 # 🌊 Simulations
 
-This section presents simulation projects related to **structural**, **thermal**, or **fluid dynamics** analyses.
+This section presents simulation projects related to **structural** & **fluid dynamics** analyses.
 
 ---
 
