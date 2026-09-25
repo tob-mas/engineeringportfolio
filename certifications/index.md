@@ -25,7 +25,7 @@ SolidWorks certifications demonstrating progressive competency from associate to
 
 Computational Fluid Dynamics certifications and training.
 
-- CFD certification currently in progress
+- **Aerodynamics of an FSAE Car** — Ansys Fluent — [View Certificate](cfd/Ansys_Aerodynamics_of_an_FSAE_Car.pdf)
 
 ---
 
