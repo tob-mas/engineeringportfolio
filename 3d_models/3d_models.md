@@ -6,7 +6,7 @@ permalink: /3d_models/
 
 # 🧱 3D Models
 
-This section includes 3D CAD models and engineering designs created using tools such as **SolidWorks**.
+This section includes 3D CAD models and engineering designs created using tools such as **SolidWorks & CATIA V5**.
 
 ---
 
